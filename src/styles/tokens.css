@@ -1,0 +1,58 @@
+/**
+ * bodywiselab.org 디자인 토큰
+ * 자동 생성됨 (2026-05-07T11:23:08.593Z)
+ * 출처: design-tokens.json
+ *
+ * 형식: RGB 채널 (예: "168 216 201")
+ * 사용: rgb(var(--color-primary) / 30%) → bg-primary/30 같은 Tailwind alpha 변형 가능
+ */
+
+:root {
+  --color-background: 250 250 248;
+  --color-foreground: 31 31 31;
+
+  --color-primary: 122 139 95;
+  --color-primary-foreground: 255 255 255;
+
+  --color-accent: 31 31 31;
+  --color-accent-foreground: 255 255 255;
+
+  --color-muted: 245 245 243;
+  --color-muted-foreground: 71 71 71;
+
+  --color-card: 250 250 248;
+  --color-card-foreground: 31 31 31;
+
+  --color-border: 111 111 111;
+  --color-input: 106 106 106;
+  --color-ring: 122 139 95;
+
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-body: "Source Serif Pro", Georgia, serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --radius: 8px;
+
+  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --color-background: 26 26 26;
+  --color-foreground: 240 240 240;
+
+  --color-primary: 92 107 69;
+  --color-primary-foreground: 255 255 255;
+
+  --color-accent: 31 31 31;
+  --color-accent-foreground: 255 255 255;
+
+  --color-muted: 34 34 34;
+  --color-muted-foreground: 210 210 210;
+
+  --color-card: 31 31 31;
+  --color-card-foreground: 240 240 240;
+
+  --color-border: 180 180 180;
+  --color-input: 175 175 175;
+}
