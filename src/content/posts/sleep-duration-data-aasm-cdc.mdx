@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2620
-affiliate: false
+affiliate: true
 faq:
   - question: "What is the AASM-recommended sleep duration?"
     answer: "American Academy of Sleep Medicine and Sleep Research Society consensus: adults aged 18-60 should sleep 7 or more hours per night on a regular basis to promote optimal health. Adults 61-64: 7-9 hours. Adults 65+: 7-8 hours. The 7-hour floor is a hard recommendation, not a target — sleeping less than 7 hours is associated with adverse health outcomes including weight gain, diabetes, hypertension, heart disease, stroke, depression, and increased mortality. There's no documented health benefit to sleeping less than 7 hours."
@@ -79,6 +79,9 @@ faq:
     answer: "Consumer wearables (Apple Watch, Oura, Fitbit, Whoop) provide useful approximations of sleep duration and reasonable estimates of stages. Per validation studies vs polysomnography: total sleep time within 5-15% accurate, REM/deep stage breakdowns 20-40% accurate. Trends are more reliable than absolute values. Use them to identify patterns (consistently short Sunday-night sleep, late-evening alcohol effects, weekend variability) rather than precise stage measurements. For diagnosis-grade data, sleep-medicine polysomnography in a lab is still the gold standard."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The American Academy of Sleep Medicine, Sleep Research Society, CDC, and Mayo Clinic all converge on a clear consensus: adults need 7 or more hours of sleep per night. This sounds simple but is widely ignored — CDC's most recent National Health Interview Survey reports 35-40% of U.S. adults regularly get less than 7 hours. This article walks through the consensus data, the documented health costs of short sleep, and what the actual recovery patterns look like.
 
@@ -267,3 +270,57 @@ The AASM-CDC-NIH consensus is:
 The data is unambiguous. The challenge is implementation. Treating the 7-hour floor as a hard rule rather than a flexible target is the single highest-impact health intervention available.
 
 For complementary health content, see [standing desk hours](/posts/standing-desk-hours-mayo-cornell).
+
+## Sleep tools for hitting the AASM-recommended 7-9 hours
+
+The AASM and CDC data is unambiguous: sleep quality matters as much as duration. These three products consistently move the needle on the sleep-architecture metrics that drive next-day cognitive performance.
+
+<ProductBox
+  name="Oura Ring (Gen 3) Sleep Tracking"
+  priceHint="$299-349 + subscription — gold-standard sleep tracker"
+  pros={[
+    "Validated against polysomnography within 2-3% for sleep stages",
+    "Tracks HRV, body temperature, resting HR — full recovery picture",
+    "Discreet wear (ring, not wrist) — no visible 'I'm tracking myself'"
+  ]}
+  cons={[
+    "Requires monthly subscription post-2023 (~$6/month)",
+    "Smaller battery (4-7 days) than wrist trackers"
+  ]}
+  href="https://www.amazon.com/s?k=Oura+Ring+Gen+3+sleep+tracker"
+  region="us"
+/>
+
+<ProductBox
+  name="Saatva Graphite Memory Foam Mattress Topper (3-inch)"
+  priceHint="$200-400 (size dependent) — pressure-relief upgrade"
+  pros={[
+    "Graphite infusion sleeps cooler than standard memory foam",
+    "3-inch profile transforms a too-firm mattress in one delivery",
+    "180-day home trial from Saatva direct (Amazon resellers may vary)"
+  ]}
+  cons={[
+    "Memory foam has a brief off-gas period (vent for 24-48 hours)",
+    "Hand-wash spot cleaning only — protect with a cover"
+  ]}
+  href="https://www.amazon.com/s?k=Saatva+graphite+memory+foam+mattress+topper"
+  region="us"
+/>
+
+<ProductBox
+  name="Manta Sleep Mask (zero-pressure light blocker)"
+  priceHint="$25-40 — for shift workers and morning-light sleepers"
+  pros={[
+    "Zero pressure on eyelids (eye cups, not contact mask)",
+    "100% light blackout — superior to most $10-20 masks",
+    "Adjustable eye-cup position for side and back sleepers"
+  ]}
+  cons={[
+    "Bulkier than slim travel masks",
+    "Strap can leave temporary indentation on light skin"
+  ]}
+  href="https://www.amazon.com/s?k=Manta+sleep+mask"
+  region="us"
+/>
+
+The Oura Ring is the highest-leverage purchase if you don't know your sleep baseline. Add a topper only after 2-4 weeks of data show your sleep efficiency is below 85%.
