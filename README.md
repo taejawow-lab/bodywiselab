@@ -52,3 +52,5 @@ master-template/
 ```bash
 ../scripts/setup_site.sh <new-domain>
 ```
+
+<!-- build-trigger: 2026-05-12T04:14:07Z -->
