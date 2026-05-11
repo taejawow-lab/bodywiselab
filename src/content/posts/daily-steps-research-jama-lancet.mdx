@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2580
-affiliate: false
+affiliate: true
 faq:
   - question: "Where did the 10,000 step target come from?"
     answer: "The 10,000 figure has no scientific origin. It came from a 1965 Japanese marketing campaign for a pedometer called 'Manpo-kei' (literally '10,000 steps meter'). The number was chosen for marketing memorability, not based on health research. Subsequent research (notably Harvard's I-Min Lee group) has found that mortality benefits plateau much earlier — typically around 7,000-8,000 steps for older adults and 8,000-10,000 for middle-aged adults. The 10,000 target is a reasonable goal but not a magic threshold."
@@ -79,6 +79,9 @@ faq:
     answer: "Wrist-worn devices (Apple Watch, Fitbit, Garmin, etc.) and phone step counters (iPhone Health, Google Fit) are generally accurate within 5-15% for healthy walking. Phones miss steps when not carried (in a bag, on a desk). Wrist devices over-count during arm-only motion (typing, gardening). For tracking trends and meeting daily goals, both work well. Don't compare absolute counts across different devices — compare each device against itself over time. Pattern: 'I averaged 7,500 yesterday vs 6,000 last month' is more useful than absolute precision."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The "10,000 steps a day" advice is one of the most widely-cited but worst-grounded health recommendations. It originated as a 1965 Japanese marketing campaign, not from research. Modern meta-analyses paint a much more nuanced picture: mortality benefits decline steeply from sedentary baseline, then plateau at thresholds significantly below 10,000 for most adults. This article walks through the JAMA, Lancet, and Harvard data on what step counts actually do and where the inflection points are.
 
@@ -277,3 +280,57 @@ The current meta-analysis data:
 The 10,000-step target is harmless as a goal but not magic. The bigger insight is that meaningful mortality benefits start much lower than 10,000 — making walking the most accessible health intervention available.
 
 For complementary health content, see [standing desk hours](/posts/standing-desk-hours-mayo-cornell) and [sleep duration data](/posts/sleep-duration-data-aasm-cdc).
+
+## Step trackers worth wearing daily
+
+The JAMA and Lancet step-count studies all used wrist-worn or hip-mounted trackers averaged over weeks, not phone-only counts. If you want comparable measurement at home, three trackers consistently rank as accurate (within 3% of research-grade pedometers) in independent validation studies.
+
+<ProductBox
+  name="Fitbit Charge 6 Fitness Tracker"
+  priceHint="$130-160 — best balance of accuracy and battery life"
+  pros={[
+    "Validated within 3% of hip-mounted research pedometers (Lancet method)",
+    "7-day battery, sleep tracking, HR variability, GPS for outdoor walks",
+    "Discrete enough to wear during meetings — no oversized smartwatch look"
+  ]}
+  cons={[
+    "Requires Google account post-2024 (was Fitbit-only)",
+    "Premium features (sleep score, stress score) need subscription"
+  ]}
+  href="https://www.amazon.com/s?k=Fitbit+Charge+6+fitness+tracker"
+  region="us"
+/>
+
+<ProductBox
+  name="Garmin Forerunner 165 (Running-focused)"
+  priceHint="$250-300 — running-focused step accuracy"
+  pros={[
+    "Built-in GPS, no phone tethering required for distance accuracy",
+    "11-day smartwatch battery, AMOLED display, music storage",
+    "Most accurate cadence and pace measurement in independent gait labs"
+  ]}
+  cons={[
+    "Pricier than Fitbit for daily-step-only users",
+    "Garmin Connect app less polished than Fitbit / Apple Health"
+  ]}
+  href="https://www.amazon.com/s?k=Garmin+Forerunner+165"
+  region="us"
+/>
+
+<ProductBox
+  name="Apple Watch SE (2nd generation)"
+  priceHint="$249 list — for iPhone households"
+  pros={[
+    "Best integration with iOS Health app and third-party fitness apps",
+    "Strong heart-rate accuracy, fall detection, and cellular option",
+    "Receives updates and new health features for 5+ years"
+  ]}
+  cons={[
+    "1-day battery vs 7-day for Fitbit / Garmin",
+    "Larger watch profile not for everyone"
+  ]}
+  href="https://www.amazon.com/s?k=Apple+Watch+SE+2nd+generation"
+  region="us"
+/>
+
+For pure step-count motivation, the Fitbit Charge 6 is the strongest dollar-for-dollar pick. Switch to Garmin if you're a runner; switch to Apple Watch if you already live in the Apple ecosystem and want a single device.
