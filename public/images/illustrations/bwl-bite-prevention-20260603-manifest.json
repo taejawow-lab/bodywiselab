@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-06-02T16:13:47Z",
+  "finalized_at": "2026-06-02T16:17:40Z",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "site": "bodywiselab",
+  "slug": "tick-mosquito-bite-prevention-outdoor-workout-plan",
+  "title": "Tick and Mosquito Bite Prevention for Outdoor Workouts",
+  "post": "src/content/posts/tick-mosquito-bite-prevention-outdoor-workout-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-hero.png",
+      "filename": "bwl-bite-prevention-20260603-hero.png",
+      "seed": 202606030001,
+      "prompt": "realistic adult preparing for trail walk with long sleeves, socks, hat, repellent bottle turned away, no labels, no text, no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "e03b768c-184b-4075-8566-c1f544040d99",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1677373
+    },
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-01.png",
+      "filename": "bwl-bite-prevention-20260603-01.png",
+      "seed": 202606030002,
+      "prompt": "walker choosing clear maintained trail edge with tall grass avoided, no signs or readable text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "d5693c93-d7d3-4d92-b407-644639d97b04",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 2307041
+    },
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-02.png",
+      "filename": "bwl-bite-prevention-20260603-02.png",
+      "seed": 202606030003,
+      "prompt": "close view of plain repellent bottle turned away next to hat and socks, no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "7f03adb7-77c1-4d60-a3c2-85363cf001a8",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1289269
+    },
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-03.png",
+      "filename": "bwl-bite-prevention-20260603-03.png",
+      "seed": 202606030004,
+      "prompt": "person doing post walk tick check on clothing sleeve with mirror nearby, no skin closeup, no medical scene",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "4af33f29-d169-4d83-a3da-b44d65bfe49c",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1242613
+    },
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-04.png",
+      "filename": "bwl-bite-prevention-20260603-04.png",
+      "seed": 202606030005,
+      "prompt": "family placing outdoor workout clothes directly into laundry hamper after trail walk, no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "cd5fc1aa-311d-4439-9e49-fc38b42ffa74",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1848686
+    },
+    {
+      "file": "public/images/illustrations/bwl-bite-prevention-20260603-05.png",
+      "filename": "bwl-bite-prevention-20260603-05.png",
+      "seed": 202606030006,
+      "prompt": "calm shaded park path with runner staying in center of path, no signs no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "ea161464-c818-4514-9f72-94fad7facb0e",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 2322527
+    }
+  ],
+  "visual_qa": "pass after contact-sheet inspection; drive-insight hero and greenlivingtrend image 01 regenerated before publication"
+}
