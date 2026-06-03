@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-06-03T16:13:44Z",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "site": "bodywiselab",
+  "slug": "ozone-alert-outdoor-exercise-indoor-swap-plan",
+  "title": "Ozone Alert Outdoor Exercise: Indoor Swap Plan",
+  "post": "src/content/posts/ozone-alert-outdoor-exercise-indoor-swap-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-hero.png",
+      "filename": "bwl-ozone-exercise-20260604-hero.png",
+      "seed": 202606040001,
+      "prompt": "realistic runner at home doorway choosing indoor mat workout while sunny hazy city park is visible outside, no text, no logos, no readable screens",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "556c0733-24ff-4dbd-bc74-fe5f989d2b97",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1363342
+    },
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-01.png",
+      "filename": "bwl-ozone-exercise-20260604-01.png",
+      "seed": 202606040002,
+      "prompt": "adult checking blank phone and running shoes beside indoor exercise mat, no screen text no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "2107eea3-38f7-4dd0-b336-4c5f8a0b9c9b",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1479061
+    },
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-02.png",
+      "filename": "bwl-ozone-exercise-20260604-02.png",
+      "seed": 202606040003,
+      "prompt": "community track at bright afternoon distance with athlete choosing shaded indoor gym entrance, no signs no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "8af8f7c4-9131-44d0-8a5a-109f565a3c23",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1685653
+    },
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-03.png",
+      "filename": "bwl-ozone-exercise-20260604-03.png",
+      "seed": 202606040004,
+      "prompt": "simple indoor low intensity workout scene with fan and water bottle turned away, no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "10b83c8c-7c55-47cd-9e17-4a2605a326fa",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1202693
+    },
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-04.png",
+      "filename": "bwl-ozone-exercise-20260604-04.png",
+      "seed": 202606040005,
+      "prompt": "coach placing cones indoors for youth movement drills, no children faces, no readable markings",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "9d5e58ef-4431-4d6e-9fc4-7072808ed499",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1517914
+    },
+    {
+      "file": "public/images/illustrations/bwl-ozone-exercise-20260604-05.png",
+      "filename": "bwl-ozone-exercise-20260604-05.png",
+      "seed": 202606040006,
+      "prompt": "evening park path after haze with walker starting easy return routine, no signs no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "ca69ee44-ffd1-4d82-84c5-4dc4df77b0a9",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1949311
+    }
+  ],
+  "qa": "visual contact sheet reviewed; final retained images only"
+}
