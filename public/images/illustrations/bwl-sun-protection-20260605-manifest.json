@@ -1,0 +1,135 @@
+{
+  "site": "bodywiselab",
+  "date": "2026-06-05",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-hero.png",
+      "filename": "bwl-sun-protection-20260605-hero.png",
+      "seed": 202606050001,
+      "prompt": "realistic outdoor runner preparing hat sunglasses and sunscreen bottle turned away on shaded porch no label no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "aef80ec3-8c29-431a-82fe-29e0ae64ff25",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1583593
+    },
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-01.png",
+      "filename": "bwl-sun-protection-20260605-01.png",
+      "seed": 202606050002,
+      "prompt": "runner shoes hat sunglasses and blank sunscreen tube on bench in natural light no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "8119e11e-c93f-4a4e-9925-162686cb387e",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1712569
+    },
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-02.png",
+      "filename": "bwl-sun-protection-20260605-02.png",
+      "seed": 202606050003,
+      "prompt": "tree shaded park path with athlete choosing shaded route no signs no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "499a9bca-b89c-46c1-a983-063e3f4e2a01",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 2320463
+    },
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-03.png",
+      "filename": "bwl-sun-protection-20260605-03.png",
+      "seed": 202606050004,
+      "prompt": "adult applying sunscreen from blank tube to arm before run no readable label",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "243bd021-43a8-42f6-89a7-49ab95a8457a",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1266892
+    },
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-04.png",
+      "filename": "bwl-sun-protection-20260605-04.png",
+      "seed": 202606050005,
+      "prompt": "cool indoor backup workout mat near window with hat and water bottle no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "bca5f3ba-ada1-4c95-8924-36e1eceaa568",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1528451
+    },
+    {
+      "file": "public/images/illustrations/bwl-sun-protection-20260605-05.png",
+      "filename": "bwl-sun-protection-20260605-05.png",
+      "seed": 202606050006,
+      "prompt": "post workout skin check scene with mirror turned away and simple notebook blank no writing",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "f8b3720b-b84d-4e98-a1b3-2ec133f73c5e",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1112905
+    }
+  ]
+}
