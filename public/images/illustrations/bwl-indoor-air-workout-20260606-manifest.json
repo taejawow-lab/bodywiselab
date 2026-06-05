@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-06-05T16:14:36Z",
+  "batch": "A",
+  "date": "2026-06-06",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels"
+  },
+  "site": "bodywiselab",
+  "slug": "indoor-workout-air-quality-heat-plan",
+  "title": "Indoor Workout Air Quality and Heat Plan",
+  "post": "src/content/posts/indoor-workout-air-quality-heat-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-hero.png",
+      "filename": "bwl-indoor-air-workout-20260606-hero.png",
+      "prompt": "realistic home fitness planning scene with yoga mat, fan turned away, closed window, blank air purifier, water bottle, no readable text, no logos",
+      "seed": 202606060601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "770e9ca6-ea19-4c0a-aa31-00b55c5765f3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1672561,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-01.png",
+      "filename": "bwl-indoor-air-workout-20260606-01.png",
+      "prompt": "realistic indoor workout corner with clean mat, resistance bands, closed window, blank air purifier, no text",
+      "seed": 202606060602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0aba412c-4761-44b7-b724-563bd19f8015",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1675847,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-02.png",
+      "filename": "bwl-indoor-air-workout-20260606-02.png",
+      "prompt": "realistic person preparing low intensity indoor exercise with water bottle and towel, no screens, no readable labels",
+      "seed": 202606060603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "bb379f67-6dda-450f-8f49-3096c9825de3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1670273,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-03.png",
+      "filename": "bwl-indoor-air-workout-20260606-03.png",
+      "prompt": "realistic home ventilation decision scene with window shade, fan off to side, air purifier blank panel, no text",
+      "seed": 202606060604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4f7e48ba-20fe-45ca-847d-810b3a16672c",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1684306,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-04.png",
+      "filename": "bwl-indoor-air-workout-20260606-04.png",
+      "prompt": "realistic exercise swap planning flat lay with dumbbells, blank cards, weather radio shape no labels, no text",
+      "seed": 202606060605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c790ac2a-984d-49b1-b427-f387c6d7219d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1783702,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-indoor-air-workout-20260606-05.png",
+      "filename": "bwl-indoor-air-workout-20260606-05.png",
+      "prompt": "realistic cool-down recovery scene with chair, water, towel, indoor plants, blank wall, no text",
+      "seed": 202606060606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f245faea-6aa9-4df0-9980-06d941d485e1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1501260,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260606-bodywiselab-contact-sheet.jpg",
+  "sources": [
+    "https://www.cdc.gov/air-quality/about/index.html",
+    "https://www.airnow.gov/aqi/aqi-basics/",
+    "https://www.epa.gov/indoor-air-quality-iaq/improving-indoor-air-quality",
+    "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics",
+    "https://www.weather.gov/safety/heat",
+    "https://www.cdc.gov/heat-health/about/index.html",
+    "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+    "https://www.epa.gov/indoor-air-quality-iaq/care-your-air-guide-indoor-air-quality"
+  ],
+  "visual_qa_summary": "Contact sheet created for mandatory visual inspection; images are GTI13 raster PNGs at 1536x864 with no SVG/placeholders counted.",
+  "adSense_readiness": "Article uses official/current sources, non-affiliate helpful-content framing, internal links, FAQ, native tables, and six GTI13 raster images with visual QA."
+}
