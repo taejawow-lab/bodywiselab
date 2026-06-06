@@ -1,0 +1,171 @@
+{
+  "site": "bodywiselab",
+  "date": "2026-06-07",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-hero.png",
+      "filename": "bwl-hydration-heat-20260607-hero.png",
+      "prompt": "realistic summer home workout hydration planning scene with plain water bottle, towel, shaded window, blank note cards, no readable text, no logos",
+      "seed": 202606060601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "00f13f4a-1d04-4b70-bccc-f3ca8ece146a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_hero_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1731522,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-01.png",
+      "filename": "bwl-hydration-heat-20260607-01.png",
+      "prompt": "realistic athlete preparing water bottle and towel before shaded summer workout, blank bottle, no text",
+      "seed": 202606060602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a805dfc9-5a44-44af-9266-b69a06d2e5ab",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_01_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1625663,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-02.png",
+      "filename": "bwl-hydration-heat-20260607-02.png",
+      "prompt": "realistic low intensity indoor exercise recovery scene with water glass, chair, fan safely placed, no readable labels",
+      "seed": 202606060603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e2610c55-ed4f-4288-bf75-9125d9a787c3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_02_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1557453,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-03.png",
+      "filename": "bwl-hydration-heat-20260607-03.png",
+      "prompt": "realistic hydration planning flat lay with plain bottles, fruit, blank cards, no numbers, no text",
+      "seed": 202606060604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5c217ead-d956-4455-b2ac-adc50d102f48",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_03_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1526471,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-04.png",
+      "filename": "bwl-hydration-heat-20260607-04.png",
+      "prompt": "realistic post workout cool down scene in shaded room with towel and water, no screens, no labels",
+      "seed": 202606060605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "fca08d7d-fbc7-476e-906d-285423ad6f51",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1526282,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hydration-heat-20260607-05.png",
+      "filename": "bwl-hydration-heat-20260607-05.png",
+      "prompt": "realistic outdoor park workout pause in shade with plain bottle and towel, no readable signs, no logos",
+      "seed": 202606060606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ea25b1b4-c448-4fb9-bf49-a1ff87672d3e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_bodywiselab_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1724100,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa": "contact-sheet-pass"
+}
