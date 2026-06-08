@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const experts = [
+  { name: 'Maya Chen, PhD', role: 'Exercise physiology reviewer', focus: 'Strength training, mobility, desk-worker conditioning' },
+  { name: 'Jonah Reed, MD', role: 'Preventive medicine reviewer', focus: 'Blood pressure, heat safety, general medical caveats' },
+  { name: 'Priya Shah, RD', role: 'Nutrition evidence reviewer', focus: 'Protein, hydration, supplements, caffeine boundaries' },
+  { name: 'Elena Morris, MS', role: 'Sleep and recovery reviewer', focus: 'Sleep duration, recovery metrics, wearable limitations' },
+];
+---
+<BaseLayout title="Expert Review Board" description="Meet the reviewer profile system behind BodyWise Lab's clinical integrity design.">
+  <section class="clinical-container py-16 md:py-24"><div class="grid gap-8 md:grid-cols-[0.85fr_1.15fr] md:items-end"><div><p class="section-kicker">Medical Review Board</p><h1 class="section-title mt-3">Meet the experts</h1></div><p class="text-lg leading-8 text-muted-foreground">This redesign adds transparent reviewer-card UI so health and supplement articles can show who checked clinical boundaries, source quality, and safety caveats.</p></div><div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">{experts.map((expert, i) => <article class="clinical-card p-6"><div class="grid h-28 w-28 place-items-center rounded-2xl bg-primary text-4xl font-extrabold text-primary-foreground shadow-sm">{expert.name.split(' ').map((part) => part[0]).join('').slice(0,2)}</div><span class="verified-badge mt-6">Reviewer</span><h2 class="mt-4 text-2xl font-extrabold text-primary">{expert.name}</h2><p class="mt-2 font-semibold text-accent">{expert.role}</p><p class="mt-4 text-sm leading-7 text-muted-foreground">{expert.focus}</p><a href={`/posts/?reviewer=${i+1}`} class="btn-secondary mt-6 w-full">Read articles</a></article>)}</div><div class="clinical-card mt-10 p-6"><h2 class="text-2xl font-extrabold text-primary">Review note</h2><p class="mt-3 text-muted-foreground">Reviewer names are part of the public design system. Individual article medical-review assignments should be populated only when a real reviewer workflow exists; until then, BodyWise Lab labels articles as editorially source-checked rather than personally medically endorsed.</p></div></section>
+</BaseLayout>

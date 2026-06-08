@@ -2,105 +2,57 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-
-const POSTS_PER_PAGE = 9;
+const POSTS_PER_PAGE = 24;
 const categorySlug = (category: string) => category.toLowerCase().trim().replace(/\s+/g, '-');
-
-const posts = (await getCollection('posts'))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || '';
-
-// Group by category for navigation
-const byCategory = posts.reduce((acc, post) => {
-  const cat = post.data.category || 'general';
-  if (!acc[cat]) acc[cat] = [];
-  acc[cat].push(post);
-  return acc;
-}, {} as Record<string, typeof posts>);
-
+const posts = (await getCollection('posts')).filter((post) => !post.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'BodyWise Lab';
+const displayName = siteName.replace(/bodywiselab/i, 'BodyWise Lab');
+const byCategory = posts.reduce((acc, post) => { const cat = post.data.category || 'general'; if (!acc[cat]) acc[cat] = []; acc[cat].push(post); return acc; }, {} as Record<string, typeof posts>);
 const categories = Object.keys(byCategory).sort();
-const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
 const pagePosts = posts.slice(0, POSTS_PER_PAGE);
 ---
-
-<BaseLayout title="All Posts" description={`Complete archive of all ${posts.length} posts on ${siteName}`}>
-  <section class="container mx-auto px-6 md:px-10 py-16 md:py-24">
-
-    <!-- editorial header -->
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-12 md:mb-16 border-b border-border pb-12">
-      <div class="col-span-12 md:col-span-4">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ Archive</p>
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-[-0.02em]" style="font-family: var(--font-display);">
-          All Posts
-        </h1>
-        <p class="text-sm uppercase tracking-[0.15em] font-mono text-foreground/60 mt-4">
-          {posts.length} articles · Page 1 of {totalPages}
-        </p>
-      </div>
-      <div class="col-span-12 md:col-span-7 md:col-start-6 md:pt-4">
-        <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
-          Every article on {siteName}, sorted by most recent. Use numbered pages, category browsing, or search to find older guides quickly.
-        </p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href="/categories/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">Browse categories</a>
-          <a href="/search/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">Search articles</a>
-        </div>
-        {categories.length > 1 && (
-          <div id="categories" class="mt-6 flex flex-wrap gap-2">
-            {categories.map((cat) => (
-              <a
-                href={`/category/${categorySlug(cat)}/`}
-                class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors"
-              >
-                {cat} ({byCategory[cat].length})
-              </a>
-            ))}
-          </div>
-        )}
+<BaseLayout title="Knowledge Library" description={`Expert-verified archive of ${posts.length} ${displayName} articles.`}>
+  <section class="clinical-container py-16 md:py-24">
+    <div class="grid gap-8 border-b border-border pb-12 md:grid-cols-[0.8fr_1.2fr] md:items-end">
+      <div><p class="section-kicker">Knowledge Library</p><h1 class="section-title mt-3">Article archive</h1><p class="mt-5 text-sm font-bold uppercase tracking-[0.15em] text-muted-foreground">{posts.length} articles · Expert verified cards</p></div>
+      <div><p class="text-lg leading-8 text-muted-foreground">Filter the full BodyWise Lab archive by category, sort by freshness, and jump into source-backed articles with visible expert-verification badges.</p><div class="mt-5 flex flex-wrap gap-3"><a href="/compare/" class="btn-secondary">Compare supplements</a><a href="/experts/" class="btn-secondary">Review board</a></div></div>
+    </div>
+    <div class="mt-10 grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
+      <aside class="clinical-card h-fit p-5 lg:sticky lg:top-32">
+        <h2 class="m-0 text-xl font-extrabold text-primary">Filter Drawer</h2>
+        <label class="mt-5 block text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground" for="library-search">Search</label>
+        <input id="library-search" type="search" placeholder="Search articles..." class="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2 outline-none focus:border-accent" />
+        <label class="mt-5 block text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground" for="library-sort">Sort by</label>
+        <select id="library-sort" class="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2 outline-none focus:border-accent"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="az">Title A–Z</option></select>
+        <div class="mt-6"><p class="text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground">Categories</p><div class="mt-3 space-y-2">{categories.map((cat) => <label class="flex cursor-pointer items-center gap-2 rounded-lg border border-border/70 bg-background px-3 py-2 text-sm font-semibold text-muted-foreground"><input class="library-category" type="checkbox" value={cat.toLowerCase()} /> <span>{cat} ({byCategory[cat].length})</span></label>)}</div></div>
+        <p id="library-count" class="mt-6 rounded-lg bg-accent/10 px-3 py-2 text-sm font-bold text-accent">Showing latest {pagePosts.length}</p>
+      </aside>
+      <div id="library-grid" class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {pagePosts.map((post, i) => <ArticleCard title={post.data.title} description={post.data.description} href={`/posts/${post.slug}/`} image={post.data.heroImage} category={post.data.category} pubDate={post.data.pubDate} variant="standard" index={i} />)}
       </div>
     </div>
-
-    <!-- post grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 md:gap-x-8 gap-y-12">
-      {pagePosts.map((post, i) => (
-        <ArticleCard
-          title={post.data.title}
-          description={post.data.description}
-          href={`/posts/${post.slug}`}
-          image={post.data.heroImage}
-          category={post.data.category}
-          pubDate={post.data.pubDate}
-          variant="standard"
-          index={i}
-        />
-      ))}
-    </div>
-
-    {totalPages > 1 && (
-      <nav class="mt-16 pt-10 border-t border-border" aria-label="Post pagination">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-foreground/50 mb-4">Pages</p>
-        <ol class="flex flex-wrap gap-2">
-          {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
-            <li>
-              <a
-                href={page === 1 ? '/posts/' : `/posts/page/${page}/`}
-                aria-current={page === 1 ? 'page' : undefined}
-                class:list={[
-                  'inline-flex h-10 min-w-10 items-center justify-center border px-3 text-sm font-mono transition-colors',
-                  page === 1
-                    ? 'border-foreground bg-foreground text-background'
-                    : 'border-border hover:border-foreground hover:bg-foreground hover:text-background',
-                ]}
-              >
-                {page}
-              </a>
-            </li>
-          ))}
-        </ol>
-      </nav>
-    )}
-
+    {posts.length > POSTS_PER_PAGE && <div class="mt-12 rounded-xl border border-border bg-card p-5 text-sm text-muted-foreground">Showing the newest {POSTS_PER_PAGE} articles. Older pages remain available through numbered archive routes and category pages.</div>}
+    <script is:inline>
+      const search = document.getElementById('library-search');
+      const sort = document.getElementById('library-sort');
+      const checks = Array.from(document.querySelectorAll('.library-category'));
+      const grid = document.getElementById('library-grid');
+      const cards = Array.from(document.querySelectorAll('#library-grid > article'));
+      const count = document.getElementById('library-count');
+      function applyFilters(){
+        const q = (search?.value || '').toLowerCase().trim();
+        const cats = checks.filter(c => c.checked).map(c => c.value);
+        let shown = cards.filter(card => {
+          const title = card.dataset.title || '';
+          const cat = (card.dataset.category || '').toLowerCase();
+          return (!q || title.includes(q)) && (!cats.length || cats.includes(cat));
+        });
+        shown.sort((a,b) => { const mode = sort?.value || 'newest'; if(mode === 'az') return (a.dataset.title || '').localeCompare(b.dataset.title || ''); const da = new Date(a.dataset.date || 0).getTime(); const db = new Date(b.dataset.date || 0).getTime(); return mode === 'oldest' ? da - db : db - da; });
+        cards.forEach(card => card.style.display = 'none'); shown.forEach(card => { card.style.display = ''; grid?.appendChild(card); });
+        if(count) count.textContent = `Showing ${shown.length} matching articles`;
+      }
+      [search, sort, ...checks].forEach(el => el?.addEventListener('input', applyFilters));
+      checks.forEach(el => el.addEventListener('change', applyFilters));
+    </script>
   </section>
 </BaseLayout>

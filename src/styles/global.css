@@ -1,7 +1,5 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Serif+Pro:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap");
 @import './tokens.css';
 
 @tailwind base;
@@ -9,187 +7,55 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
     font-feature-settings: 'rlig' 1, 'calt' 1;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    background-image:
+      radial-gradient(circle at 12% 10%, rgb(var(--color-accent) / 0.08), transparent 28rem),
+      linear-gradient(180deg, rgb(var(--color-background)), rgb(var(--color-muted) / 0.42));
   }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-    @apply tracking-tight;
-  }
-
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); @apply tracking-tight; }
   h1 { @apply text-4xl md:text-5xl font-bold; }
   h2 { @apply text-3xl md:text-4xl font-semibold mt-12 mb-4; }
   h3 { @apply text-2xl md:text-3xl font-semibold mt-8 mb-3; }
   h4 { @apply text-xl md:text-2xl font-semibold mt-6 mb-2; }
-
-  /* Smooth scroll */
-  html {
-    scroll-behavior: smooth;
-  }
-
-  /* Focus visibility for accessibility */
-  *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-ring;
-  }
-
-  /* Selection color follows accent */
-  ::selection {
-    background-color: var(--color-accent);
-    color: var(--color-accent-foreground);
-  }
+  *:focus-visible { @apply outline-2 outline-offset-2 outline-ring; }
+  ::selection { background-color: rgb(var(--color-accent) / 0.24); color: rgb(var(--color-foreground)); }
 }
 
 @layer components {
-  /* 마이크로 인터랙션 */
-  .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 rounded-md
-           bg-primary text-primary-foreground font-medium
-           transition-all duration-200
-           hover:opacity-90 hover:scale-105
-           active:scale-95
-           focus-visible:outline-2 focus-visible:outline-ring;
-  }
-
-  .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3 rounded-md
-           border border-border bg-card text-card-foreground font-medium
-           transition-all duration-200
-           hover:bg-muted hover:scale-105
-           active:scale-95;
-  }
-
-  .card {
-    @apply bg-card text-card-foreground border border-border rounded-lg p-6
-           transition-all duration-200
-           hover:shadow-lg hover:-translate-y-1;
-  }
-
-  /* Article prose enhancements */
-  .prose-article {
-    @apply prose prose-lg max-w-none;
-  }
-
-  .prose-article a {
-    @apply text-primary underline decoration-1 underline-offset-2
-           hover:opacity-80 transition-opacity;
-  }
-
-  .prose-article blockquote {
-    @apply border-l-4 border-accent pl-6 italic text-muted-foreground;
-  }
-
-  .prose-article code:not(pre code) {
-    @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono;
-  }
-
-  .prose-article pre {
-    @apply bg-muted rounded-lg p-4 overflow-x-auto;
-  }
-
-  /* Comparison table styling — v5.3 시각자료 #10 */
-  .comparison-table {
-    @apply w-full my-8 border-collapse rounded-lg overflow-hidden border border-border;
-  }
-
-  .comparison-table th {
-    @apply bg-primary text-primary-foreground px-4 py-3 text-left font-semibold;
-  }
-
-  .comparison-table td {
-    @apply px-4 py-3 border-t border-border;
-  }
-
-  .comparison-table tr:nth-child(even) {
-    @apply bg-muted/30;
-  }
-
-  /* Data chart container — v5.3 #11 */
-  .chart-container {
-    @apply my-8 p-6 bg-card border border-border rounded-lg;
-  }
-
-  /* Infographic container — v5.3 #9 */
-  .infographic {
-    @apply my-8 rounded-lg overflow-hidden shadow-lg;
-  }
-
-  /* Video embed — v5.3 #14 */
-  .video-embed {
-    @apply my-8 aspect-video rounded-lg overflow-hidden bg-muted;
-  }
-
-  /* Affiliate disclosure block */
-  .affiliate-disclosure {
-    @apply my-8 p-4 bg-muted/50 border-l-4 border-accent rounded-r-lg
-           text-sm text-muted-foreground;
-  }
+  .clinical-container { @apply container mx-auto px-4 sm:px-6 md:px-10; }
+  .btn-primary { @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-ring; }
+  .btn-secondary { @apply inline-flex items-center justify-center rounded-lg border border-accent/40 bg-card px-6 py-3 font-semibold text-accent transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent hover:text-accent-foreground focus-visible:outline-ring; }
+  .clinical-card { @apply rounded-lg border border-border/70 bg-card shadow-[0_4px_20px_rgba(0,31,63,0.05)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/45 hover:shadow-[0_18px_42px_rgba(0,31,63,0.10)]; }
+  .verified-badge { @apply inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.12em] text-accent ring-1 ring-accent/20; }
+  .verified-badge::before { content: "✓"; @apply grid h-4 w-4 place-items-center rounded-full bg-accent text-[10px] text-accent-foreground; }
+  .section-kicker { @apply text-[11px] font-bold uppercase tracking-[0.22em] text-accent; }
+  .section-title { @apply text-4xl font-extrabold leading-[1.02] tracking-[-0.025em] md:text-6xl; }
+  .section-title::after { content: ""; @apply mt-5 block h-1 w-20 rounded-full bg-accent; }
+  .score-bar { @apply h-2 overflow-hidden rounded-full bg-muted; }
+  .score-bar > span { @apply block h-full rounded-full bg-accent; }
+  .prose-article { @apply prose prose-lg mx-auto max-w-[74ch] text-[1.05rem] leading-8 md:text-[1.1rem]; }
+  .prose-article a { @apply text-accent underline decoration-1 underline-offset-2 hover:text-primary transition-colors; }
+  .prose-article :where(h2, h3, h4) { @apply scroll-mt-28 text-balance; }
+  .prose-article :where(p, ul, ol, blockquote, table, figure) { @apply my-6; }
+  .prose-article blockquote { @apply rounded-r-lg border-l-4 border-accent bg-accent/5 pl-6 text-muted-foreground; }
+  .prose-article code:not(pre code) { @apply rounded bg-muted px-1.5 py-0.5 font-mono text-sm; }
+  .prose-article pre { @apply overflow-x-auto rounded-lg bg-muted p-4; }
+  .prose-article img { @apply rounded-2xl border border-border/60 shadow-lg; }
+  .comparison-table { @apply my-8 w-full overflow-hidden rounded-lg border border-border; }
+  .comparison-table th { @apply bg-primary px-4 py-3 text-left font-semibold text-primary-foreground; }
+  .comparison-table td { @apply border-t border-border px-4 py-3; }
+  .comparison-table tr:nth-child(even) { @apply bg-muted/30; }
+  .chart-container, .infographic { @apply my-8 rounded-lg border border-border bg-card p-6 shadow-sm; }
+  .video-embed { @apply my-8 aspect-video overflow-hidden rounded-lg bg-muted; }
+  .affiliate-disclosure { @apply mx-auto my-8 max-w-3xl rounded-2xl border border-accent/20 bg-accent/5 p-4 text-sm text-muted-foreground shadow-sm; }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-
-  .text-pretty {
-    text-wrap: pretty;
-  }
-
-  /* Glass morphism (선택적, 현대 디자인 트렌드) */
-  .glass {
-    @apply bg-background/80 backdrop-blur-md border border-border/50;
-  }
-}
-
-/* Portfolio UX modernization: accessible editorial rhythm, cards, and mobile ergonomics */
-@layer base {
-  body {
-    line-height: 1.65;
-    text-rendering: optimizeLegibility;
-  }
-
-  a, button {
-    text-underline-offset: 0.18em;
-  }
-}
-
-@layer components {
-  .editorial-card {
-    background-image:
-      linear-gradient(135deg, rgb(var(--color-primary) / 0.055), transparent 34%),
-      linear-gradient(180deg, rgb(var(--color-card) / 0.98), rgb(var(--color-card) / 0.9));
-  }
-
-  .prose-article {
-    @apply mx-auto max-w-[74ch] text-[1.05rem] leading-8 md:text-[1.1rem];
-  }
-
-  .prose-article :where(h2, h3, h4) {
-    @apply scroll-mt-28 text-balance;
-  }
-
-  .prose-article :where(p, ul, ol, blockquote, table, figure) {
-    @apply my-6;
-  }
-
-  .prose-article img {
-    @apply rounded-2xl border border-border/60 shadow-lg;
-  }
-
-  .affiliate-disclosure {
-    @apply mx-auto max-w-3xl rounded-2xl border border-accent/20 bg-accent/5 shadow-sm;
-  }
-}
-
-@layer utilities {
-  .focus-ring-soft {
-    @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring;
-  }
-}
+@layer utilities { .text-balance { text-wrap: balance; } .text-pretty { text-wrap: pretty; } }

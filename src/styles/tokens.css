@@ -1,35 +1,36 @@
-/* bodywiselab.org design tokens — auto-generated 2026-05-08T03:44:06.515Z */
+/* BodyWise Lab — Clinical Integrity design tokens (Claude Design handoff 2026-06-08) */
 :root {
-  --color-background: 250 250 248;
-  --color-foreground: 31 31 31;
-  --color-primary: 122 139 95;
+  --color-background: 248 250 251;
+  --color-foreground: 25 28 29;
+  --color-primary: 0 31 63;
   --color-primary-foreground: 255 255 255;
-  --color-accent: 31 31 31;
+  --color-accent: 0 106 106;
   --color-accent-foreground: 255 255 255;
-  --color-muted: 245 245 243;
-  --color-muted-foreground: 71 71 71;
-  --color-card: 250 250 248;
-  --color-card-foreground: 31 31 31;
-  --color-border: 111 111 111;
-  --color-input: 106 106 106;
-  --color-ring: 122 139 95;
-  --font-heading: "Inter", system-ui, sans-serif;
-  --font-body: "Source Serif Pro", Georgia, serif;
-  --font-display: "Fraunces", serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --color-muted: 236 238 239;
+  --color-muted-foreground: 67 71 78;
+  --color-card: 255 255 255;
+  --color-card-foreground: 25 28 29;
+  --color-border: 196 198 207;
+  --color-input: 116 119 127;
+  --color-ring: 0 106 106;
+  --font-heading: "Manrope", Inter, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --font-display: "Manrope", Inter, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
   --radius: 8px;
 }
 [data-theme='dark'] {
-  --color-background: 26 26 26;
-  --color-foreground: 240 240 240;
-  --color-primary: 92 107 69;
-  --color-primary-foreground: 255 255 255;
-  --color-accent: 31 31 31;
-  --color-accent-foreground: 255 255 255;
-  --color-muted: 34 34 34;
-  --color-muted-foreground: 210 210 210;
-  --color-card: 31 31 31;
-  --color-card-foreground: 240 240 240;
-  --color-border: 180 180 180;
-  --color-input: 175 175 175;
+  --color-background: 14 24 32;
+  --color-foreground: 239 241 242;
+  --color-primary: 175 200 240;
+  --color-primary-foreground: 0 28 58;
+  --color-accent: 118 214 213;
+  --color-accent-foreground: 0 32 32;
+  --color-muted: 46 49 50;
+  --color-muted-foreground: 212 230 229;
+  --color-card: 23 35 45;
+  --color-card-foreground: 239 241 242;
+  --color-border: 94 104 114;
+  --color-input: 148 158 168;
+  --color-ring: 118 214 213;
 }
