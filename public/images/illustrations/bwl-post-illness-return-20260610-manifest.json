@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-06-09T16:14:35Z",
+  "batch": "A",
+  "date": "2026-06-10",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "endpoint_redacted": "GTI13 direct ComfyUI endpoint recorded in root ops manifest; redacted for public report",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1"
+  },
+  "site": "bodywiselab",
+  "post": "src/content/posts/post-illness-return-to-exercise-first-week-plan.mdx",
+  "slug": "post-illness-return-to-exercise-first-week-plan",
+  "title": "Post-Illness Return to Exercise First-Week Plan",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-hero.png",
+      "filename": "bwl-post-illness-return-20260610-hero.png",
+      "prompt": "realistic calm home recovery fitness planning scene with clean exercise mat, water bottle, tissues put away, blank journal, no readable text, no medical labels",
+      "seed": 202606100101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cebf7da9-1bde-44bb-8992-28186ab5cd3e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1619577,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-01.png",
+      "filename": "bwl-post-illness-return-20260610-01.png",
+      "prompt": "realistic easy walk preparation with clean shoes, water bottle, light jacket, blank wall, no text",
+      "seed": 202606100102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ac3f57b1-dbf2-4b80-a89b-98949c83b09a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1083329,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-02.png",
+      "filename": "bwl-post-illness-return-20260610-02.png",
+      "prompt": "realistic gentle mobility session in bright room, yoga mat, chair support, safe posture, no text",
+      "seed": 202606100103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "06cc36be-f7f7-4156-a667-da55879bb133",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1337149,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-03.png",
+      "filename": "bwl-post-illness-return-20260610-03.png",
+      "prompt": "realistic low intensity cycling setup with towel and water, blank screen turned away, no numbers",
+      "seed": 202606100104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3bdcf7c0-2b43-4f71-b3ba-7fcdec475e13",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1706048,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-04.png",
+      "filename": "bwl-post-illness-return-20260610-04.png",
+      "prompt": "realistic recovery checklist objects with thermometer turned away, soup bowl, water, blank cards, no labels",
+      "seed": 202606100105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "465eba67-b89e-4b2c-830e-15893b25b050",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1497638,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-illness-return-20260610-05.png",
+      "filename": "bwl-post-illness-return-20260610-05.png",
+      "prompt": "realistic first week exercise planning desk with calendar shape but no dates or text, plain cards, no handwriting",
+      "seed": 202606100106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e2fedd81-b3be-4145-a86e-917b2a4ec862",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1460575,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Contact sheet created; accepted only after visual QA confirms no unsafe/text/UI artifacts."
+}
