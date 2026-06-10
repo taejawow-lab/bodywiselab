@@ -4,27 +4,64 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 
 export async function getStaticPaths() {
+  const categorySlug = (category: string) => category.toLowerCase().trim().replace(/\s+/g, '-');
+  const hubCopy: Record<string, { dek: string; who: string[]; start: string[]; caution: string; promise: string }> = {
+    fitness: {
+      dek: 'Exercise guides for desk workers and home trainees who need safe, repeatable routines instead of hype.',
+      who: ['New or returning exercisers', 'Desk workers rebuilding capacity', 'People comparing practical home-training options'],
+      start: ['Zone 2 Cardio Without Lab Gear', 'Mobility Warmup Strength Training', 'Grip Strength Training'],
+      caution: 'Use the safety notes in each article before adding intensity, especially after illness, heat exposure, high blood pressure, or unusual fatigue.',
+      promise: 'We prioritize conservative progressions, symptom stop-rules, and field tests that can be repeated without a lab.',
+    },
+    health: {
+      dek: 'Health-adjacent routines that translate public-health and clinical guidance into everyday decision checks.',
+      who: ['Readers tracking sleep, blood pressure, or recovery signals', 'People returning to activity after mild illness', 'Outdoor exercisers managing heat, smoke, or air quality'],
+      start: ['Home Blood Pressure Monitoring', 'Post-Illness Return to Exercise', 'Wildfire Smoke Outdoor Exercise AQI'],
+      caution: 'These articles do not diagnose, treat, or replace medical care. Escalate symptoms and clinician-directed conditions to qualified professionals.',
+      promise: 'Every guide separates general education from medical decisions and includes red-flag boundaries where the article should not be used alone.',
+    },
+    nutrition: {
+      dek: 'Food, hydration, and recovery guidance built around practical ranges, context, and tradeoffs.',
+      who: ['Active adults planning protein, hydration, and recovery routines', 'Readers who want evidence summaries without supplement marketing', 'People adapting routines for heat, long walks, or training days'],
+      start: ['Protein Timing Muscle Longevity', 'Hydration Math IOM EFSA', 'Electrolyte Balance Guide'],
+      caution: 'Nutrition needs vary by medical condition, medication, pregnancy, kidney disease, eating-disorder history, and clinician instructions.',
+      promise: 'We explain when numbers are broad population guidance versus useful personal tracking cues.',
+    },
+    supplements: {
+      dek: 'Supplement evidence pages that emphasize dose boundaries, uncertainty, interactions, and when not to buy.',
+      who: ['Readers comparing creatine, protein, caffeine, and electrolyte products', 'People who want source-backed benefits and limitations', 'Shoppers who need non-commercial alternatives'],
+      start: ['Creatine Monohydrate Evidence', 'Creatine for Women', 'Pre-Workout Supplements Tested'],
+      caution: 'Check medication interactions, pregnancy status, kidney disease, heart rhythm concerns, and clinician instructions before using supplements.',
+      promise: 'We disclose affiliate context and include skip-it-if criteria so product content does not replace health judgment.',
+    },
+    ergonomics: {
+      dek: 'Desk, home-office, and movement-break guidance for reducing friction in everyday work routines.',
+      who: ['Desk workers managing long sitting time', 'Home-office users adjusting equipment', 'Readers looking for movement breaks that fit real schedules'],
+      start: ['Sitting Health Risk Mayo Data', 'Standing Desk Hours Mayo Cornell', 'Recovery Tracking App Data'],
+      caution: 'Pain, numbness, weakness, or symptoms that persist despite setup changes should be evaluated by a qualified clinician.',
+      promise: 'We focus on realistic defaults, short experiments, and setup checks rather than one perfect posture rule.',
+    },
+  };
   const posts = (await getCollection('posts')).filter((p) => !p.data.draft);
   const cats = [...new Set(posts.map((p) => p.data.category).filter(Boolean))];
   return cats.map((cat) => {
-    const slug = cat.toLowerCase().trim().replace(/\s+/g, '-');
+    const slug = categorySlug(cat);
     const catPosts = posts
       .filter((p) => p.data.category === cat)
       .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
     return {
       params: { category: slug },
-      props: { category: cat, posts: catPosts },
+      props: { category: cat, posts: catPosts, hub: hubCopy[slug] || null },
     };
   });
 }
 
-const { category, posts } = Astro.props;
+const { category, posts, hub } = Astro.props;
 const siteName = import.meta.env.PUBLIC_SITE_NAME || '';
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
 const labels = {
-  archive: lang === 'ko' ? '카테고리' : lang === 'ja' ? 'カテゴリー' : 'Category',
-  articles: lang === 'ko' ? '글' : lang === 'ja' ? '記事' : 'articles',
-  desc: lang === 'ko' ? `${category} 카테고리의 ${posts.length}개 글` : `Every ${category} article on ${siteName}`,
+  archive: 'Category',
+  articles: 'articles',
+  desc: hub?.dek || `Every ${category} article on ${siteName}`,
 };
 ---
 
@@ -41,11 +78,40 @@ const labels = {
         </p>
       </div>
       <div class="col-span-12 md:col-span-7 md:col-start-6 md:pt-4">
-        <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
+        <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-2xl">
           {labels.desc}
         </p>
+        {hub && (
+          <div class="mt-6 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-border bg-card p-4">
+              <h2 class="text-sm font-bold uppercase tracking-[0.16em] text-primary">Best for</h2>
+              <ul class="mt-3 space-y-2 text-sm leading-6 text-muted-foreground">
+                {hub.who.map((item) => <li>• {item}</li>)}
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-border bg-card p-4">
+              <h2 class="text-sm font-bold uppercase tracking-[0.16em] text-primary">Start here</h2>
+              <ul class="mt-3 space-y-2 text-sm leading-6 text-muted-foreground">
+                {hub.start.map((item) => <li>• {item}</li>)}
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
     </div>
+
+    {hub && (
+      <div class="mb-12 grid gap-6 md:grid-cols-[1fr_1fr]">
+        <section class="rounded-[1.5rem] border border-accent/20 bg-accent/5 p-6">
+          <h2 class="text-2xl font-extrabold text-primary" style="font-family: var(--font-display);">How to use this section</h2>
+          <p class="mt-3 text-sm leading-7 text-muted-foreground">{hub.promise}</p>
+        </section>
+        <section class="rounded-[1.5rem] border border-destructive/20 bg-destructive/5 p-6">
+          <h2 class="text-2xl font-extrabold text-primary" style="font-family: var(--font-display);">Safety boundary</h2>
+          <p class="mt-3 text-sm leading-7 text-muted-foreground">{hub.caution}</p>
+        </section>
+      </div>
+    )}
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 md:gap-x-8 gap-y-12">
       {posts.map((post, i) => (
@@ -64,7 +130,7 @@ const labels = {
 
     <div class="mt-16 pt-12 border-t border-border">
       <a href="/posts/" class="inline-flex items-center gap-3 text-sm uppercase tracking-[0.15em] font-mono hover:text-accent transition-colors">
-        ← {lang === 'ko' ? '전체 글 보기' : lang === 'ja' ? '全記事' : 'View all articles'}
+        ← View all articles
       </a>
     </div>
   </section>
