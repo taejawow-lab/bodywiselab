@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-06-10T16:14:21Z",
+  "batch": "A",
+  "date": "2026-06-11",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, exposed wires, raw meat beside produce, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, unsafe child restraint, child face closeup"
+  },
+  "endpoint": "REDACTED_DIRECT_GTI13",
+  "site": "bodywiselab",
+  "post": "src/content/posts/post-travel-workout-return-plan.mdx",
+  "slug": "post-travel-workout-return-plan",
+  "title": "Post-Travel Workout Return Plan After Long Flights",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-hero.png",
+      "filename": "bwl-post-travel-workout-20260611-hero.png",
+      "prompt": "realistic post travel recovery planning scene with suitcase closed, yoga mat, water bottle, blank notebook, soft daylight, no readable text, no logos, no medical labels",
+      "seed": 202606110701,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4d39b223-cc0b-4df0-a121-d1bf35e8ef81",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1611657,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-01.png",
+      "filename": "bwl-post-travel-workout-20260611-01.png",
+      "prompt": "realistic gentle mobility session after travel with mat and chair, safe posture, no text no logos",
+      "seed": 202606110702,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e22ae793-aa1d-4dd5-a1e4-f177a8cd47d3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1454894,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-02.png",
+      "filename": "bwl-post-travel-workout-20260611-02.png",
+      "prompt": "realistic hydration and walk preparation after long flight with shoes, water bottle, blank cards, no labels",
+      "seed": 202606110703,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1224411c-1150-450a-8ee5-f27c8b85ce65",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1690075,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-03.png",
+      "filename": "bwl-post-travel-workout-20260611-03.png",
+      "prompt": "realistic low intensity strength return setup with light dumbbells, towel, suitcase in corner, no text",
+      "seed": 202606110704,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c6e843f1-96d5-43f3-8598-636075f5b788",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1462665,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-04.png",
+      "filename": "bwl-post-travel-workout-20260611-04.png",
+      "prompt": "realistic sleep recovery bedroom scene after travel with eye mask, blank alarm clock turned away, no numbers",
+      "seed": 202606110705,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "216f3871-9e1c-4668-be9c-b43255ca37e5",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1445330,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-post-travel-workout-20260611-05.png",
+      "filename": "bwl-post-travel-workout-20260611-05.png",
+      "prompt": "realistic outdoor easy walk recovery scene on quiet path, no signs, no readable text",
+      "seed": 202606110706,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9b785399-e90a-4851-b68e-bd59e34df8a8",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2351910,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa": "Passed final contact-sheet QA after regeneration/exclusions noted in central report; no placeholder/SVG images counted."
+}
