@@ -1,0 +1,146 @@
+{
+  "site": "bodywiselab",
+  "date": "2026-06-12",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI (redacted in report)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "article": "exercise-headache-heat-hydration-red-flag-plan",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-hero.png",
+      "filename": "bwl-exercise-headache-heat-20260612-hero.png",
+      "prompt": "home workout pause scene with water bottle, towel, shaded window, blank wall, no text",
+      "seed": 202606120101,
+      "prompt_id": "d44340e1-065d-4f27-bdd9-73c9a96d03b7",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1833726,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-01.png",
+      "filename": "bwl-exercise-headache-heat-20260612-01.png",
+      "prompt": "runner resting in shade with plain water bottle and cooling towel, face not close, no signs",
+      "seed": 202606120102,
+      "prompt_id": "ec924a13-6cd9-4fc0-905e-2c57f864dea6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 2196287,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-02.png",
+      "filename": "bwl-exercise-headache-heat-20260612-02.png",
+      "prompt": "indoor strength setup with fan, mat, blank notebook, no readable text",
+      "seed": 202606120103,
+      "prompt_id": "02d0bc72-0458-4d3d-9b3e-bf749f2fd231",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1828681,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-03.png",
+      "filename": "bwl-exercise-headache-heat-20260612-03.png",
+      "prompt": "cool recovery corner with chair, water, damp towel, no labels",
+      "seed": 202606120104,
+      "prompt_id": "2ea2c3d6-2a45-464b-bb7c-dbe766db4c50",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1681440,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-04.png",
+      "filename": "bwl-exercise-headache-heat-20260612-04.png",
+      "prompt": "exercise planning flat lay with plain cards, thermometer shape with blank face, no numbers",
+      "seed": 202606120105,
+      "prompt_id": "f2b7afa6-b6d9-4291-8728-60a4a31c7993",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1965772,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-exercise-headache-heat-20260612-05.png",
+      "filename": "bwl-exercise-headache-heat-20260612-05.png",
+      "prompt": "calm clinic-neutral health planning desk with stethoscope silhouette, blank paper, no text",
+      "seed": 202606120106,
+      "prompt_id": "47abccfc-1aca-4dd6-9c41-a424d1bce9ab",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1333307,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260612_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260612-bodywiselab-contact-sheet.jpg",
+  "visual_qa_status": "contact-sheet inspected by workflow before staging; no text-heavy images intentionally prompted; parent report will cite final visual QA."
+}
