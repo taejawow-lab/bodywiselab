@@ -1,0 +1,256 @@
+{
+  "slug": "sleep-exercise-timing-heat-wave-recovery-plan",
+  "title": "Sleep and Exercise Timing During Heat Waves: Recovery Plan",
+  "post": "src/content/posts/sleep-exercise-timing-heat-wave-recovery-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-hero.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-hero.png",
+      "prompt": "realistic calm bedroom and exercise planning scene, cooling fan angled away, water bottle, folded workout clothes, blank wall, no readable text, no logos",
+      "positive_prompt": "realistic calm bedroom and exercise planning scene, cooling fan angled away, water bottle, folded workout clothes, blank wall, no readable text, no logos, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "58800df5-a0cd-4032-b4c1-443bbac0f9a9",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1580696
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-01.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-01.png",
+      "prompt": "realistic early morning workout prep with shoes, water bottle, towel, shaded window, no clock numbers, no text",
+      "positive_prompt": "realistic early morning workout prep with shoes, water bottle, towel, shaded window, no clock numbers, no text, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "ae4e3407-a405-452b-aae3-e3039e12a6b4",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1589759
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-02.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-02.png",
+      "prompt": "realistic cool-down recovery corner with chair, towel, water, fan safely placed, no labels",
+      "positive_prompt": "realistic cool-down recovery corner with chair, towel, water, fan safely placed, no labels, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "d77b6edc-3425-476f-ac46-f9da50cbde5d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1309011
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-03.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-03.png",
+      "prompt": "realistic bedroom heat-wave sleep setup with closed curtains, breathable bedding, no screens, no readable text",
+      "positive_prompt": "realistic bedroom heat-wave sleep setup with closed curtains, breathable bedding, no screens, no readable text, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "88029139-825d-4764-954c-a1ae69d2451d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1487376
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-04.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-04.png",
+      "prompt": "realistic hydration and rest planning flat lay with blank cards, plain bottle, no numbers or labels",
+      "positive_prompt": "realistic hydration and rest planning flat lay with blank cards, plain bottle, no numbers or labels, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "5301d1c1-b264-44e3-877d-512ef38f054a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1536692
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-exercise-heat-20260613-05.png",
+      "filename": "bwl-sleep-exercise-heat-20260613-05.png",
+      "prompt": "realistic low intensity indoor mobility scene, mat and resistance band, clean room, blank props, no text",
+      "positive_prompt": "realistic low intensity indoor mobility scene, mat and resistance band, clean room, blank props, no text, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "6d0aa1e1-22c8-499e-bb14-e65c75074207",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1410680
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260613-bodywiselab-contact-sheet.jpg",
+  "preflight": {
+    "cmd": [
+      "python3",
+      "bin/preflight_topic_quality_gate.py",
+      "--site",
+      "bodywiselab",
+      "--slug",
+      "sleep-exercise-timing-heat-wave-recovery-plan",
+      "--title",
+      "Sleep and Exercise Timing During Heat Waves: Recovery Plan"
+    ],
+    "rc": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"bodywiselab\",\n  \"slug\": \"sleep-exercise-timing-heat-wave-recovery-plan\",\n  \"title\": \"Sleep and Exercise Timing During Heat Waves: Recovery Plan\",\n  \"candidate_tokens\": [\n    \"exercise\",\n    \"recovery\",\n    \"sleep\",\n    \"timing\",\n    \"wave\",\n    \"waves\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  },
+  "source_results": [
+    {
+      "url": "https://www.cdc.gov/heat-health/about/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/heat-health/about/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-athletes.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/heat-health/risk-factors/heat-and-athletes.html"
+    },
+    {
+      "url": "https://www.weather.gov/safety/heat",
+      "status": 200,
+      "final": "https://www.weather.gov/safety/heat"
+    },
+    {
+      "url": "https://www.airnow.gov/aqi/aqi-basics/",
+      "status": 200,
+      "final": "https://www.airnow.gov/aqi/aqi-basics/"
+    },
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+      "status": 200,
+      "final": "https://www.nhlbi.nih.gov/health/sleep-deprivation"
+    },
+    {
+      "url": "https://www.cdc.gov/sleep/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/sleep/index.html"
+    },
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20047414",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "visual_qa_summary": "Contact sheet created; all assets are new GTI13 PNGs at 1536x864.",
+  "gate": {
+    "host": "gti13",
+    "time": 1781280999,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15247,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "host": "gti13",
+  "endpoint": "redacted-gti13-direct-8188",
+  "workflow": {
+    "steps": 26,
+    "cfg": 5.0,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup"
+  }
+}
