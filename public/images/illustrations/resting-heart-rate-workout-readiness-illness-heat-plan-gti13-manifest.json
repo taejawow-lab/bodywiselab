@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-14",
+  "site": "bodywiselab",
+  "slug": "resting-heart-rate-workout-readiness-illness-heat-plan",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, gauge numbers, thermometer numbers"
+  },
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-hero.png",
+      "filename": "bwl-resting-hr-readiness-20260614-hero.png",
+      "prompt": "realistic morning recovery planning scene with fitness watch face turned away, water bottle, blank journal, light exercise mat, no readable text, no medical labels",
+      "seed": 202606140101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b550b8ab-e129-4b37-a8ab-8a25932c56aa",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1898304,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-01.png",
+      "filename": "bwl-resting-hr-readiness-20260614-01.png",
+      "prompt": "realistic text-free still life for workout readiness after illness: folded towel, water bottle, yoga block, blank index cards, no human, no hands, no watch, no device, no text, no numbers",
+      "seed": 202606149101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "459c2baf-9582-4605-b164-6b5cb6cc584d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_fix2_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok_regenerated_after_final_visual_qa",
+      "bytes": 1498343,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-02.png",
+      "filename": "bwl-resting-hr-readiness-20260614-02.png",
+      "prompt": "realistic low intensity home mobility setup with mat, resistance band, towel, water, no readable labels",
+      "seed": 202606140103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "81f88cba-5844-4898-be25-9be2e6013a95",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1969491,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-03.png",
+      "filename": "bwl-resting-hr-readiness-20260614-03.png",
+      "prompt": "realistic shaded indoor walking shoes and blank readiness card on bench, no logos no text",
+      "seed": 202606140104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "21da5119-96ad-4ec5-a24c-5444b5b7e5d9",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1447319,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-04.png",
+      "filename": "bwl-resting-hr-readiness-20260614-04.png",
+      "prompt": "realistic heat-safe workout decision scene with fan, water, towel, closed blinds, no thermostat numbers",
+      "seed": 202606140105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7d66177c-b0c3-45fc-a701-39cb8ca9dbda",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1588370,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-resting-hr-readiness-20260614-05.png",
+      "filename": "bwl-resting-hr-readiness-20260614-05.png",
+      "prompt": "realistic rest day recovery setup with soup bowl, water glass, folded blanket, blank notebook, no medicine labels",
+      "seed": 202606140106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "bc163519-6402-493a-a144-ee29c9a2bd58",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1884934,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa": "accepted after contact-sheet QA; bodywiselab 01 and greenlivingtrend 01 regenerated twice; cooknestdaily 01 and drive-insight 03/04 regenerated once; final2 sheets accepted for affected sites."
+}
