@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-06-14T16:15:01Z",
+  "batch": "A",
+  "date": "2026-06-15",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.05,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, clock face numbers, watch face, phone screen, app interface, dashboard numbers, appliance control panel, warning label text"
+  },
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "site": "bodywiselab",
+  "slug": "heat-illness-workout-stop-rule",
+  "title": "Heat Illness Workout Stop Rule",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-hero.png",
+      "filename": "bwl-heat-illness-stop-20260615-hero.png",
+      "prompt": "realistic summer workout safety planning scene indoors with running shoes, water bottle, towel, shaded window, blank notebook, no text no labels no screens",
+      "seed": 202606150101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c97ebcb6-f687-4c23-a205-4f6ce9fdbc4e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1580896,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-01.png",
+      "filename": "bwl-heat-illness-stop-20260615-01.png",
+      "prompt": "realistic shaded park exercise pause scene with water bottle and towel on bench, no signs, no text, no logos, no distressed person",
+      "seed": 202606150102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0d130906-cda8-42ea-9d65-338010f62fae",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1880221,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-02.png",
+      "filename": "bwl-heat-illness-stop-20260615-02.png",
+      "prompt": "realistic indoor cool-down setup with fan turned away, chair, towel, water glass, plain wall, no labels no screens",
+      "seed": 202606150103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "71530298-00a6-42aa-8fd3-13bd966675be",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1690378,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-03.png",
+      "filename": "bwl-heat-illness-stop-20260615-03.png",
+      "prompt": "realistic low intensity home mobility alternative with mat and resistance band, blank room, no mirrors with text, safe posture",
+      "seed": 202606150104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6c99d5ea-4c42-4b36-a23c-c178357c93ae",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1432715,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-04.png",
+      "filename": "bwl-heat-illness-stop-20260615-04.png",
+      "prompt": "realistic coach planning heat-safe workout swaps with plain cones, blank clipboard face down, water bottles, no text no numbers",
+      "seed": 202606150105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ba122298-c19d-4d75-bd64-477415f41baa",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2463274,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-heat-illness-stop-20260615-05.png",
+      "filename": "bwl-heat-illness-stop-20260615-05.png",
+      "prompt": "realistic recovery corner with damp towel, chair, sealed water bottle, shaded daylight, no medical devices no labels",
+      "seed": 202606150106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "47377fc4-41d8-4954-81a6-f51c45b2507d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1599035,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet updated after visual QA replacements; accepted assets match MDX references and manifest.",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260615-bodywiselab-contact-sheet-final.jpg"
+}
