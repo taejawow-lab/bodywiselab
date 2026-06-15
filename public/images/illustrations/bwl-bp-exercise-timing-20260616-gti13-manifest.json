@@ -1,0 +1,202 @@
+{
+  "slug": "morning-blood-pressure-exercise-timing-plan",
+  "title": "Morning Blood Pressure and Exercise Timing Plan",
+  "post": "src/content/posts/morning-blood-pressure-exercise-timing-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-hero.png",
+      "filename": "bwl-bp-exercise-timing-20260616-hero.png",
+      "prompt": "realistic calm morning health planning scene with running shoes, water glass, blank notebook, turned-away blood pressure cuff without numbers, no readable text",
+      "seed": 202606160101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d43b61df-a705-4e84-9dd7-882867e196a1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1634235,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-01.png",
+      "filename": "bwl-bp-exercise-timing-20260616-01.png",
+      "prompt": "realistic low intensity walking preparation near doorway with shoes and water, no text no logos",
+      "seed": 202606160102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "662f8924-2166-4d32-851a-b63c1f686e4a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1430177,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-02.png",
+      "filename": "bwl-bp-exercise-timing-20260616-02.png",
+      "prompt": "realistic seated rest before workout with blank notebook and towel, medical device turned away no numbers",
+      "seed": 202606160103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4854c191-5aa5-45f3-8707-07f248dbb709",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1467132,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-03.png",
+      "filename": "bwl-bp-exercise-timing-20260616-03.png",
+      "prompt": "realistic home exercise corner with resistance band and chair, calm morning light, no screens no labels",
+      "seed": 202606160104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "930bdc93-a24d-4e40-a375-d33d444f5cf4",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1829152,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-04.png",
+      "filename": "bwl-bp-exercise-timing-20260616-04.png",
+      "prompt": "realistic cooldown recovery scene with water and towel on plain table, no readable text",
+      "seed": 202606160105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a6ee53a6-1e0d-4924-94a0-18658868e792",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1687185,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-bp-exercise-timing-20260616-05.png",
+      "filename": "bwl-bp-exercise-timing-20260616-05.png",
+      "prompt": "realistic exercise readiness still life with running shoes, sealed water glass, blank plain cards only, no calendar, no grid, no numbers, no handwriting, no text",
+      "seed": 202606161001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "55826a95-eadb-412d-8231-5e5936ce3781",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_final_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-final-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1626203,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260616-bodywiselab-contact-sheet.jpg",
+  "source_validation": [
+    {
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+      "status": 200,
+      "final": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings"
+    },
+    {
+      "url": "https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/high-blood-pressure/measure/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/high-blood-pressure/measure/index.html"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/high-blood-pressure",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://medlineplus.gov/highbloodpressure.html",
+      "status": 200,
+      "final": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+    },
+    {
+      "url": "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/high-blood-pressure-and-exercise/art-20045258",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines",
+      "status": 200,
+      "final": "https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet regenerated after QA replacements; accepted for staging if final inspection passes.",
+  "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260616-bodywiselab-contact-sheet-final.jpg"
+}
