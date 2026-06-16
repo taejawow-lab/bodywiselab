@@ -1,0 +1,195 @@
+{
+  "site": "bodywiselab",
+  "slug": "sleep-debt-workout-recovery-plan",
+  "source": "GTI13 direct ComfyUI",
+  "host": "gti13",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-hero.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-hero.png",
+      "prompt": "realistic bedroom-to-workout recovery planning scene with neatly made bed, yoga mat, water bottle, blank journal, no readable text, no medical labels, no unsafe posture",
+      "seed": 202606170101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4b898631-8734-41f2-ac04-b0701db66f49",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1588127,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-01.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-01.png",
+      "prompt": "realistic gentle recovery workout setup with mat, resistance band, water bottle, soft morning light, no text no logos",
+      "seed": 202606170102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4a31e316-ed59-4893-87f1-ce805bbacf71",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1611522,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-02.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-02.png",
+      "prompt": "realistic recovery still life on sofa after sleep-debt workout: folded blanket, water bottle, blank journal, foam roller nearby, no person, no body parts, no text, no logos, calm safe scene",
+      "seed": 202606170301,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9c318dc5-7af0-415e-8886-2dd1ee6174b1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260617_regen_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1806971,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-03.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-03.png",
+      "prompt": "realistic low intensity mobility session in home gym, neutral clothing, no mirrors with text, no numbers",
+      "seed": 202606170104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "29e7db6d-e517-4873-ac9d-421b38310a6d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1470685,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-04.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-04.png",
+      "prompt": "realistic sleep routine flat lay with eye mask, plain alarm clock turned away, water, blank cards, no readable text",
+      "seed": 202606170105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f98d84ce-8c90-4d34-933d-ac7260b84167",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1821606,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-sleep-debt-recovery-20260617-05.png",
+      "filename": "bwl-sleep-debt-recovery-20260617-05.png",
+      "prompt": "realistic coach-style decision scene with dumbbells set aside, chair, towel, blank wall, no screens no text",
+      "seed": 202606170106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "191a537a-dcff-4c5d-a4c9-6ecba971703e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1333542,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet inspected; initially rejected assets regenerated and final set accepted for publication."
+}
