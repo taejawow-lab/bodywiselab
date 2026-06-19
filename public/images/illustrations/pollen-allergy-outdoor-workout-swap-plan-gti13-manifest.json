@@ -1,0 +1,227 @@
+{
+  "generated_at": "2026-06-19T16:14:57Z",
+  "batch": "A 20260620 cron",
+  "date": "2026-06-20",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "preflight": {
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"bodywiselab\",\n  \"slug\": \"pollen-allergy-outdoor-workout-swap-plan\",\n  \"title\": \"Pollen Allergy Outdoor Workout Swap Plan\",\n  \"candidate_tokens\": [\n    \"allergy\",\n    \"outdoor\",\n    \"pollen\",\n    \"swap\",\n    \"workout\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  },
+  "site": "bodywiselab",
+  "post": "src/content/posts/pollen-allergy-outdoor-workout-swap-plan.mdx",
+  "slug": "pollen-allergy-outdoor-workout-swap-plan",
+  "title": "Pollen Allergy Outdoor Workout Swap Plan",
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-hero.png",
+      "filename": "bwl-pollen-workout-20260620-hero.png",
+      "prompt": "realistic spring workout planning scene with running shoes, water bottle, blank notepad, closed window, clean indoor mat, no readable text, no logos, no medical labels",
+      "seed": 202606200101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "418fa8e2-96b6-497d-9b8d-1c1642c62e96",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1679901,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-01.png",
+      "filename": "bwl-pollen-workout-20260620-01.png",
+      "prompt": "realistic indoor workout swap setup with mat, resistance band, shoes by closed window, no text no labels",
+      "seed": 202606200102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "78132a78-81e7-4f92-b491-1534632fb512",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1783384,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-02.png",
+      "filename": "bwl-pollen-workout-20260620-02.png",
+      "prompt": "realistic outdoor workout allergy planning still life: running shoes on bench, water bottle, tissue pack without label, face-down dark phone with fully blank black screen, blurred park path, no readable text, no UI, no numbers, no logos, no people",
+      "seed": 202606209001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8f17b9b1-6ea7-4051-9f87-b64db9c29204",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_final_bodywiselab_bwl-pollen-workout-20260620-02.png_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1702389,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-03.png",
+      "filename": "bwl-pollen-workout-20260620-03.png",
+      "prompt": "realistic low intensity home mobility setup during pollen season: clean living room, yoga mat, resistance band, water, towel, closed window, no people, no hospital, no medical equipment, no labels, no text",
+      "seed": 202606209002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7d2d223a-747f-4273-864c-286f5cadc653",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_final_bodywiselab_bwl-pollen-workout-20260620-03.png_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1857854,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-04.png",
+      "filename": "bwl-pollen-workout-20260620-04.png",
+      "prompt": "realistic park path seen from shaded distance with person choosing easy walk, no signs, no logos, no text",
+      "seed": 202606200105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7698f78a-9aa3-4b70-bbe0-763186d80c06",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2384468,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-pollen-workout-20260620-05.png",
+      "filename": "bwl-pollen-workout-20260620-05.png",
+      "prompt": "realistic recovery corner with towel, water, blank journal, clean air purifier with blank panel, no readable text",
+      "seed": 202606200106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "eea054c7-ee27-4023-946d-fdabbd618d6c",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1449035,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "sources": [
+    "https://www.cdc.gov/allergies/about/index.html",
+    "https://www.cdc.gov/asthma/air_pollution.html",
+    "https://www.airnow.gov/aqi/aqi-basics/",
+    "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality",
+    "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+    "https://www.acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines",
+    "https://www.mayoclinic.org/diseases-conditions/hay-fever/symptoms-causes/syc-20373039",
+    "https://www.lung.org/clean-air/outdoors/what-makes-air-unhealthy"
+  ],
+  "visual_qa_summary": "Initial QA rejected unsafe/mismatched assets; listed final assets were regenerated and require final contact-sheet pass.",
+  "regenerated_after_visual_qa": [
+    {
+      "site": "bodywiselab",
+      "filename": "bwl-pollen-workout-20260620-02.png"
+    },
+    {
+      "site": "bodywiselab",
+      "filename": "bwl-pollen-workout-20260620-03.png"
+    }
+  ]
+}
