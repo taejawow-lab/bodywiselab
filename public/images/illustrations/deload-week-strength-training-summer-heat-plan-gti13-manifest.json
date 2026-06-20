@@ -1,0 +1,178 @@
+{
+  "site": "bodywiselab",
+  "date": "2026-06-21",
+  "slug": "deload-week-strength-training-summer-heat-plan",
+  "title": "Deload Week Strength Training Summer Heat Plan",
+  "endpoint_host": "gti13-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "bwl-deload-heat-strength-20260621-hero.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-hero.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-hero.png",
+      "prompt": "realistic home strength training deload planning scene with dumbbells set aside, water bottle, towel, blank notebook, fan safely placed, no text no logos no screens",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622100,
+      "prompt_id": "181267bf-86d0-4192-896a-5fed11ee2f23",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "bwl-deload-heat-strength-20260621-01.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-01.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-01.png",
+      "prompt": "realistic deload strength session setup with light dumbbells, resistance band, water bottle, clear floor, no text no logos",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622101,
+      "prompt_id": "531ca185-0b5a-47f5-9a4e-c663b8b290c4",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "bwl-deload-heat-strength-20260621-02.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-02.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-02.png",
+      "prompt": "realistic athlete doing controlled light goblet squat with safe posture, plain wall, no mirrors with text, no numbers",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622102,
+      "prompt_id": "bb1ec33b-b1e7-44b9-ac20-425f195833da",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "bwl-deload-heat-strength-20260621-03.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-03.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-03.png",
+      "prompt": "realistic recovery planning flat lay with blank cards, towel, water bottle, sleep mask, no readable text no medical labels",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622103,
+      "prompt_id": "58f5985e-59f9-422b-a75b-2a162bfab70c",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "bwl-deload-heat-strength-20260621-04.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-04.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-04.png",
+      "prompt": "realistic summer indoor workout corner with fan safely placed, shaded window, light weights, no cords in walkway, no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622104,
+      "prompt_id": "05283112-bbc1-452d-847f-a875bce50c50",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "bwl-deload-heat-strength-20260621-05.png",
+      "path": "public/images/illustrations/bwl-deload-heat-strength-20260621-05.png",
+      "render_url": "/images/illustrations/bwl-deload-heat-strength-20260621-05.png",
+      "prompt": "realistic coach-style technique practice scene with empty barbell or light dumbbells, safe stance, no labels no brand marks",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622105,
+      "prompt_id": "9679b15a-5ef6-4fe5-8d66-e28d07d02bfe",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "bwl-deload-heat-strength-20260621-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/bwl-deload-heat-strength-20260621-contact-sheet.jpg",
+  "visual_qa": "PASS: final contact sheet inspected; regenerated rejected unsafe/mismatched tiles before build"
+}
