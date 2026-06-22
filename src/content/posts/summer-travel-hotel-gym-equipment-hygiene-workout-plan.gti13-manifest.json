@@ -1,0 +1,215 @@
+{
+  "slug": "summer-travel-hotel-gym-equipment-hygiene-workout-plan",
+  "title": "Summer Travel Hotel Gym Equipment Hygiene Workout Plan",
+  "post": "src/content/posts/summer-travel-hotel-gym-equipment-hygiene-workout-plan.mdx",
+  "word_count": 1550,
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-hero.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-hero.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-hero.png",
+      "prompt": "realistic hotel gym still life with clean towel, water bottle, resistance band, blank notebook, no people, no readable text, no logos",
+      "seed": 202606230101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "497ce56c-bb54-4feb-9f0f-037d13a5b6c7",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_hero_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1708763,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-01.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-01.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-01.png",
+      "prompt": "realistic hotel fitness room equipment check scene with dumbbells, mat, plain towel, no brand marks no text",
+      "seed": 202606230102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2214207f-bf7c-4c21-a527-396740598973",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_01_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2008239,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-02.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-02.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-02.png",
+      "prompt": "realistic travel workout kit on hotel room floor with resistance band, shoes, blank card, water bottle, no text",
+      "seed": 202606230103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b39e8740-f09f-483e-9e7b-44f3d68b71d3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_02_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2165853,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-03.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-03.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-03.png",
+      "prompt": "realistic person wiping exercise bench safely with plain wipe container turned away, no readable label, cropped hands only",
+      "seed": 202606230104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c93db6db-f25c-4551-854e-c1405a0704fa",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_03_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1395769,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-04.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-04.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-04.png",
+      "prompt": "realistic low intensity mobility setup in hotel room with chair and mat, no mirrors, no readable signs",
+      "seed": 202606230105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a2beb572-54c9-4384-a270-cafb80c194ea",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1750762,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-hotel-gym-hygiene-20260623-05.png",
+      "filename": "bwl-hotel-gym-hygiene-20260623-05.png",
+      "render_url": "/images/illustrations/bwl-hotel-gym-hygiene-20260623-05.png",
+      "prompt": "realistic hydration and cooling station for summer travel workout with plain bottle, towel, window light, no labels",
+      "seed": 202606230106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "55e58d12-809a-408f-be58-489a507fd5e5",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_bodywiselab_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1449428,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260623-bodywiselab-contact-sheet.jpg",
+  "source_validation": [
+    {
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/heat-health/about/index.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/heat-health/about/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "ok": true
+    },
+    {
+      "url": "https://medlineplus.gov/exerciseandphysicalfitness.html",
+      "status": 200,
+      "effective_url": "https://medlineplus.gov/exerciseandphysicalfitness.html",
+      "ok": true
+    },
+    {
+      "url": "https://medlineplus.gov/dehydration.html",
+      "status": 200,
+      "effective_url": "https://medlineplus.gov/dehydration.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines",
+      "status": 200,
+      "effective_url": "https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/",
+      "ok": true
+    },
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false
+    }
+  ],
+  "status": "generated_pending_visual_qa"
+}
