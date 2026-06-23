@@ -1,0 +1,283 @@
+{
+  "site": "bodywiselab",
+  "slug": "resistance-band-door-anchor-home-workout-safety-plan",
+  "title": "Resistance Band Door Anchor Home Workout Safety Plan",
+  "date": "2026-06-24",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "gate": {
+    "host": "gti13",
+    "time": 1782231650,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15509,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-hero.png",
+      "filename": "bwl-band-door-anchor-20260624-hero.png",
+      "prompt": "realistic home workout setup with resistance band, closed plain door, mat, water bottle, no labels, no readable text, safe clear floor",
+      "seed": 202606240101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e1fa82c3-307e-4581-820c-e10318fc3023",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1386455,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-01.png",
+      "filename": "bwl-band-door-anchor-20260624-01.png",
+      "prompt": "realistic resistance band inspection on exercise mat with plain band and blank card, no text no logos",
+      "seed": 202606240102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "15e289dc-41d9-410f-becd-7b5af02e61a5",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1845412,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-02.png",
+      "filename": "bwl-band-door-anchor-20260624-02.png",
+      "prompt": "realistic closed sturdy door workout setup with anchor implied but no labels, clear floor, no unsafe tension",
+      "seed": 202606240103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "37cb1e22-d226-4010-8dd2-eca940bf6bbb",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1177969,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-03.png",
+      "filename": "bwl-band-door-anchor-20260624-03.png",
+      "prompt": "realistic resistance band row practice with a plain resistance band anchored safely low to a sturdy closed plain door, no visible person face, only torso and arms partly visible, safe posture, neutral wall, no text no logos no mirrors",
+      "seed": 202606249001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9494e3f4-40d1-4f26-96e3-aa0866ab7451",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_regen_bodywiselab_bwl-band-door-anchor-20260624-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "replaced_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1522206,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "site": "bodywiselab"
+    },
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-04.png",
+      "filename": "bwl-band-door-anchor-20260624-04.png",
+      "prompt": "realistic home workout safety flat lay with towel, water bottle, plain bands, no brand marks no text",
+      "seed": 202606240105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6a94b732-c041-495b-b7ba-268a853cb34b",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2436800,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/bwl-band-door-anchor-20260624-05.png",
+      "filename": "bwl-band-door-anchor-20260624-05.png",
+      "prompt": "realistic cooldown stretching still life after resistance band workout: mat, plain band set aside, towel, water bottle, open uncluttered floor, no people, no text no labels no logos",
+      "seed": 202606249002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "58a3872f-e573-460e-9ee9-87df75b15951",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_regen_bodywiselab_bwl-band-door-anchor-20260624-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "replaced_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1914372,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "site": "bodywiselab"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet written after targeted replacements; accepted for build/publish if final QA passes.",
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260624-bodywiselab-contact-sheet-final.jpg",
+  "source_validation": {
+    "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+          "content_type": "text/html"
+        }
+      ]
+    },
+    "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+          "content_type": "text/html"
+        }
+      ]
+    },
+    "https://medlineplus.gov/exerciseandphysicalfitness.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://medlineplus.gov/exerciseandphysicalfitness.html",
+          "content_type": "text/html"
+        }
+      ]
+    },
+    "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887",
+          "content_type": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    "https://www.acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.cpsc.gov/Safety-Education/Sports-Fitness-and-Recreation": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cpsc.gov/Safety-Education/Sports-Fitness-and-Recreation",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.cdc.gov/niosh/ergonomics/about/index.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cdc.gov/niosh/ergonomics/about/index.html",
+          "content_type": "text/html"
+        }
+      ]
+    }
+  },
+  "preflight": {
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"bodywiselab\",\n  \"slug\": \"resistance-band-door-anchor-home-workout-safety-plan\",\n  \"title\": \"Resistance Band Door Anchor Home Workout Safety Plan\",\n  \"candidate_tokens\": [\n    \"anchor\",\n    \"band\",\n    \"door\",\n    \"resistance\",\n    \"workout\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  }
+}
