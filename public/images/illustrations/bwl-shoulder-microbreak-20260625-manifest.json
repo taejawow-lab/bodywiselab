@@ -1,0 +1,148 @@
+{
+  "site": "bodywiselab",
+  "slug": "desk-worker-shoulder-microbreak-strength-plan",
+  "title": "Desk Worker Shoulder Microbreak and Strength Plan",
+  "date": "2026-06-25",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "assets": [
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-hero.png",
+      "filename": "bwl-shoulder-microbreak-20260625-hero.png",
+      "prompt": "realistic calm home office and exercise corner with blank laptop screen, resistance band, chair, water bottle, no text, no logos, safe posture",
+      "seed": 202606250101,
+      "prompt_id": "88f2b16c-f008-4cc5-94cc-e62dfd43e847",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1513669,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-01.png",
+      "filename": "bwl-shoulder-microbreak-20260625-01.png",
+      "prompt": "realistic desk worker microbreak setup with chair pushed back, resistance band on desk, blank laptop screen, no text",
+      "seed": 202606250102,
+      "prompt_id": "681bb5b5-87e1-4e42-8d1c-71ee2bfdb078",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1263332,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-02.png",
+      "filename": "bwl-shoulder-microbreak-20260625-02.png",
+      "prompt": "realistic shoulder mobility warmup scene with wall, towel, mat, no mirrors with text, safe posture",
+      "seed": 202606250103,
+      "prompt_id": "829014b5-c4bd-4c3e-aeb9-34974814a01f",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1441244,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-03.png",
+      "filename": "bwl-shoulder-microbreak-20260625-03.png",
+      "prompt": "realistic resistance band row setup anchored safely at door with blank wall, no labels, no text",
+      "seed": 202606250104,
+      "prompt_id": "a31474fa-2256-4055-848f-1b99728d5af6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1370485,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-04.png",
+      "filename": "bwl-shoulder-microbreak-20260625-04.png",
+      "prompt": "realistic workstation adjustment scene with chair, keyboard, blank monitor, soft daylight, no UI or numbers",
+      "seed": 202606250105,
+      "prompt_id": "64fb8c09-0c65-4c97-9050-e3513d9ee487",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1494010,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/bwl-shoulder-microbreak-20260625-05.png",
+      "filename": "bwl-shoulder-microbreak-20260625-05.png",
+      "prompt": "realistic recovery tracking flat lay with blank cards, water, timer turned away, no readable text",
+      "seed": 202606250106,
+      "prompt_id": "2ba1cde4-139e-45b1-a854-7025596fd010",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1972582,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_bodywiselab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheets": {
+    "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260625-bodywiselab-contact-sheet.jpg"
+  }
+}
