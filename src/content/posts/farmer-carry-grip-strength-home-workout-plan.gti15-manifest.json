@@ -1,0 +1,30 @@
+{
+  "site": "bodywiselab",
+  "slug": "farmer-carry-grip-strength-home-workout-plan",
+  "date": "2026-06-28",
+  "gti15_endpoint": "redacted direct GTI15 ComfyUI endpoint passed gate and smoke",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/bodywiselab/carry-workout-safe-setup/20260628_011334_realvis_307608148.png",
+      "public_url": "/images/illustrations/bod-farmer-carry-grip-strength-home-workout-plan-20260628-1.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/bodywiselab/carry-workout-safe-setup/20260628_011350_juggernaut_307608149.png",
+      "public_url": "/images/illustrations/bod-farmer-carry-grip-strength-home-workout-plan-20260628-2.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/bodywiselab/grip-recovery-layout/20260628_011408_krea_2591767029.png",
+      "public_url": "/images/illustrations/bod-farmer-carry-grip-strength-home-workout-plan-20260628-3.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/bodywiselab/grip-recovery-layout/20260628_011445_realvis_2591767030.png",
+      "public_url": "/images/illustrations/bod-farmer-carry-grip-strength-home-workout-plan-20260628-4.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/bodywiselab/grip-recovery-layout/20260628_011505_juggernaut_2591767031.png",
+      "public_url": "/images/illustrations/bod-farmer-carry-grip-strength-home-workout-plan-20260628-5.png"
+    }
+  ],
+  "visual_qa": "passed after rejecting listed failed candidates; accepted images only copied to repo"
+}
