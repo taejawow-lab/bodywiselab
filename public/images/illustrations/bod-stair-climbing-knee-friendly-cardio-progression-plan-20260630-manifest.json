@@ -1,0 +1,56 @@
+{
+  "site": "bodywiselab",
+  "slug": "stair-climbing-knee-friendly-cardio-progression-plan",
+  "date": "2026-06-30",
+  "endpoint": "GTI15 ComfyUI endpoint (redacted)",
+  "dimensions": "1536x864",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "engine": "krea",
+      "seed": 3913990159,
+      "prompt_id": "4fc57c8c-75ff-4995-9e38-038c43172ffd",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\bodywiselab\\run1_stair_workout_home_landing_scene\\20260630_011252_krea_3913990159.png",
+      "bytes": 1589848,
+      "seconds": 35,
+      "published": "public/images/illustrations/bod-stair-climbing-knee-friendly-cardio-progression-plan-20260630-1.png"
+    },
+    {
+      "engine": "realvis",
+      "seed": 3913990160,
+      "prompt_id": "b413990a-d129-474e-b718-db9a298f440b",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\bodywiselab\\run1_stair_workout_home_landing_scene\\20260630_011327_realvis_3913990160.png",
+      "bytes": 1379137,
+      "seconds": 17,
+      "published": "public/images/illustrations/bod-stair-climbing-knee-friendly-cardio-progression-plan-20260630-2.png"
+    },
+    {
+      "engine": "juggernaut",
+      "seed": 3913990161,
+      "prompt_id": "0e10e96b-9553-46dd-96c8-d415c0b31f31",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\bodywiselab\\run1_stair_workout_home_landing_scene\\20260630_011345_juggernaut_3913990161.png",
+      "bytes": 1253730,
+      "seconds": 18,
+      "published": "public/images/illustrations/bod-stair-climbing-knee-friendly-cardio-progression-plan-20260630-3.png"
+    },
+    {
+      "engine": "krea",
+      "seed": 2482956107,
+      "prompt_id": "f9c7fbbc-a23a-4f39-becd-62e551904362",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\bodywiselab\\run2_stair_progression_recovery_props\\20260630_011403_krea_2482956107.png",
+      "bytes": 1768783,
+      "seconds": 36,
+      "published": "public/images/illustrations/bod-stair-climbing-knee-friendly-cardio-progression-plan-20260630-4.png"
+    },
+    {
+      "engine": "realvis",
+      "seed": 2482956108,
+      "prompt_id": "59bad396-354a-472a-a2df-7958b78174c2",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\bodywiselab\\run2_stair_progression_recovery_props\\20260630_011440_realvis_2482956108.png",
+      "bytes": 2038361,
+      "seconds": 17,
+      "published": "public/images/illustrations/bod-stair-climbing-knee-friendly-cardio-progression-plan-20260630-5.png"
+    }
+  ],
+  "visual_qa": "manual contact-sheet QA passed for selected assets; rejected assets excluded"
+}
