@@ -1,0 +1,94 @@
+{
+  "site": "bodywiselab",
+  "slug": "heat-acclimation-walking-summer-safety-plan",
+  "date": "2026-07-01",
+  "endpoint": "GTI15 direct ComfyUI endpoint (redacted in public report)",
+  "source": "GTI15 generate_natural_blog_candidates.py",
+  "prompt_summary": "Natural editorial heat-acclimation walking/hydration still-life images; no people/faces/hands/logos/readable text/screens; 1536x864",
+  "accepted_count": 6,
+  "rejected": [
+    {
+      "source": "batchA_20260701_body_heat_1/20260701_011234_krea_1629878099.png",
+      "reason": "visible lower legs/person despite no-people policy"
+    },
+    {
+      "source": "batchA_20260701_body_heat_3/20260701_011536_realvis_4232475857.png",
+      "reason": "pink clogs/off-topic low reader value for fitness walking heat plan"
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-1.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-1.png",
+      "engine": "realvis",
+      "seed": 1629878100,
+      "prompt_id": "3b87e301-8212-4f4d-bc2b-c060f1a400c6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    },
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-2.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-2.png",
+      "engine": "juggernaut",
+      "seed": 1629878101,
+      "prompt_id": "cf7e8996-510f-413a-a328-6637816f49d7",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    },
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-3.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-3.png",
+      "engine": "krea",
+      "seed": 1146131909,
+      "prompt_id": "caf6be02-f72f-4e6c-bae2-fcafa202171a",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    },
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-4.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-4.png",
+      "engine": "realvis",
+      "seed": 1146131910,
+      "prompt_id": "c8947f44-6120-405c-ad80-6917564a07f4",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    },
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-5.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-5.png",
+      "engine": "krea",
+      "seed": 4232475856,
+      "prompt_id": "07791676-5ac3-4caf-8240-0d71f4956c1f",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    },
+    {
+      "file": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-6.png",
+      "url": "/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-6.png",
+      "engine": "juggernaut",
+      "seed": 4232475858,
+      "prompt_id": "e48f2f45-0612-4a9e-8983-f167aa8bb2e6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_visual_QA"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/bod-heat-acclimation-walking-summer-safety-plan-20260701-accepted-contact-sheet.jpg"
+}
