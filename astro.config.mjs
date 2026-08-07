@@ -14,8 +14,8 @@ export default defineConfig({
     }),
     sitemap({
       filter: (page) => {
-        const url = new URL(page);
-        return !url.pathname.startsWith('/tags/') && url.pathname !== '/search/';
+        const { pathname } = new URL(page);
+        return !pathname.startsWith('/tags/') && pathname !== '/search/' && !pathname.startsWith('/posts/page/');
       },
     }),
     mdx(),

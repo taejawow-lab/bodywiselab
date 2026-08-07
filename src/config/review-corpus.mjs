@@ -1,0 +1,28 @@
+export const REVIEW_POSTS = [
+  "daily-steps-research-jama-lancet",
+  "grip-strength-training-health-plan-2026",
+  "heat-acclimation-walking-summer-safety-plan",
+  "heat-illness-workout-stop-rule",
+  "home-blood-pressure-monitoring-routine",
+  "hot-weather-workout-hydration-electrolyte-plan",
+  "hydration-math-iom-efsa",
+  "indoor-workout-air-quality-heat-plan",
+  "mobility-warmup-strength-training-2026",
+  "ozone-alert-outdoor-exercise-indoor-swap-plan",
+  "post-illness-return-to-exercise-first-week-plan",
+  "sitting-health-risk-mayo-data",
+  "sleep-duration-data-aasm-cdc",
+  "stair-climbing-knee-friendly-cardio-progression-plan",
+  "standing-desk-hours-mayo-cornell",
+  "strength-training-high-blood-pressure-2026",
+  "summer-heat-exercise-safety-plan",
+  "summer-heat-walk-workout-safety-plan",
+  "summer-travel-hotel-gym-equipment-hygiene-workout-plan",
+  "sun-protection-outdoor-workout-plan",
+  "vo2-max-field-tests-wearables-2026",
+  "weight-bench-tested",
+  "wildfire-smoke-outdoor-exercise-aqi-plan",
+  "zone-2-cardio-talk-test-plan"
+];
+export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
+export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
