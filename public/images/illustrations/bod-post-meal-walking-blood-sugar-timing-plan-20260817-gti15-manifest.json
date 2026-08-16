@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "site": "bodywiselab",
+  "slug": "post-meal-walking-blood-sugar-timing-plan",
+  "generated_at": "2026-08-17",
+  "backend": "GTI15 ComfyUI",
+  "visual_qa": "PASS",
+  "accepted_count": 6,
+  "assets": [
+    {
+      "prompt_id": "049e3e50-25fe-42b6-8f7f-8093e77350f9",
+      "remote": {
+        "filename": "gti15_natural_krea_00345_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817\\bodywiselab\\meal-walk\\20260817_013317_krea_4258917448.png",
+      "bytes": 1699188,
+      "seconds": 32,
+      "engine": "krea",
+      "seed": 4258917448,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817/bodywiselab/meal-walk/manifest.json",
+      "prompt": "post-meal walking article, quiet shaded neighborhood path beside a small dining table near an open patio door, walking shoes and a plain water bottle ready after a balanced meal, realistic editorial stock photo, no people, no hands, no faces, no text, no labels, no screens, no medical devices, no food packaging, physically plausible natural morning light",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-1.png",
+      "sha256": "1bbc5e539a6714140d249d939c6fccf291af4973cd87ca4a690db4d49e97df8c"
+    },
+    {
+      "prompt_id": "732882b9-2b1b-4a0c-a20e-8221f4ccbe05",
+      "remote": {
+        "filename": "gti15_natural_realvis_00262_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817\\bodywiselab\\meal-walk\\20260817_013350_realvis_4258917449.png",
+      "bytes": 2028469,
+      "seconds": 16,
+      "engine": "realvis",
+      "seed": 4258917449,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817/bodywiselab/meal-walk/manifest.json",
+      "prompt": "post-meal walking article, quiet shaded neighborhood path beside a small dining table near an open patio door, walking shoes and a plain water bottle ready after a balanced meal, realistic editorial stock photo, no people, no hands, no faces, no text, no labels, no screens, no medical devices, no food packaging, physically plausible natural morning light",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-2.png",
+      "sha256": "0c54fb480ae509f147a66c087c833ac7cac3d70935f159c7deb8c7526ac817f9"
+    },
+    {
+      "prompt_id": "da1b2b55-05a2-4acf-9663-fe1460fbb2b3",
+      "remote": {
+        "filename": "gti15_natural_realvis_00282_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-body-final\\20260817_015915_realvis_4153789575.png",
+      "bytes": 1831004,
+      "seconds": 30,
+      "engine": "realvis",
+      "seed": 4153789575,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-body-final/manifest.json",
+      "prompt": "post-meal walking routine editorial scene, one complete matched pair of plain walking shoes neatly side by side on a wooden bench beside a shaded park path, realistic editorial stock photo, no people, no hands, no faces, no bottles, no clocks, no text, no numbers, no labels, no logos, no screens, no medical devices, physically plausible",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-3.png",
+      "sha256": "57e3609cd1e3086a6591db6fd52959871e10e3a4cb597d4b1d4ff3d975c6e5a5"
+    },
+    {
+      "prompt_id": "f09d2c25-ffb9-4ff1-9887-33b1ed08fb43",
+      "remote": {
+        "filename": "gti15_natural_realvis_00263_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817\\bodywiselab\\timing-plan\\20260817_013455_realvis_4280674356.png",
+      "bytes": 1356010,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 4280674356,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817/bodywiselab/timing-plan/manifest.json",
+      "prompt": "short after-dinner walking routine concept, clean home entryway with walking shoes, plain analog wall clock with no visible numbers, folded light jacket and unmarked water bottle, realistic editorial stock photo, no people, no hands, no faces, no text, no labels, no screens, no glucose meter, no medicine, no documents, physically plausible warm evening light",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-4.png",
+      "sha256": "9a2993b34db735e229921cc6014bc444340b6e828731850a3f91d60206382740"
+    },
+    {
+      "prompt_id": "18e66eb6-0121-4264-8891-23a4f717b49b",
+      "remote": {
+        "filename": "gti15_natural_realvis_00268_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-replacements\\bodywiselab\\shoes-path\\20260817_014238_realvis_4292611014.png",
+      "bytes": 1828682,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 4292611014,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-replacements/bodywiselab/shoes-path/manifest.json",
+      "prompt": "post-meal walking routine, two normal pairs of walking shoes beside a plain unmarked water bottle at a home doorway opening to a safe shaded path, realistic editorial stock photo, no people, no hands, no faces, no text, no numbers, no clocks, no screens, no medical devices, no food packaging, coherent objects and natural daylight",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-5.png",
+      "sha256": "4bacbc4867f1ef94da7398254663094e602eda52a7a07705e7885a549f32694c"
+    },
+    {
+      "prompt_id": "9b600b6b-585d-43bf-97db-235cbf65d1e5",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00267_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-replacements\\bodywiselab\\shoes-path\\20260817_014254_juggernaut_4292611015.png",
+      "bytes": 1553204,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 4292611015,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-replacements/bodywiselab/shoes-path/manifest.json",
+      "prompt": "post-meal walking routine, two normal pairs of walking shoes beside a plain unmarked water bottle at a home doorway opening to a safe shaded path, realistic editorial stock photo, no people, no hands, no faces, no text, no numbers, no clocks, no screens, no medical devices, no food packaging, coherent objects and natural daylight",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "bod-post-meal-walking-blood-sugar-timing-plan-20260817-6.png",
+      "sha256": "fc86b853d113e36170692a6b77b2342d2a55c5e9ab5a56211558b6c2dd62da8f"
+    }
+  ],
+  "rejected_candidates_not_published": true
+}
