@@ -41,7 +41,7 @@
   .section-title::after { content: ""; @apply mt-5 block h-1 w-20 rounded-full bg-accent; }
   .score-bar { @apply h-2 overflow-hidden rounded-full bg-muted; }
   .score-bar > span { @apply block h-full rounded-full bg-accent; }
-  .prose-article { @apply prose prose-lg mx-auto max-w-[74ch] text-[1.05rem] leading-8 md:text-[1.1rem]; }
+  .prose-article { @apply prose prose-lg mx-auto w-full max-w-full lg:max-w-[74ch] text-[1.05rem] leading-8 md:text-[1.1rem]; }
   .prose-article a { @apply text-accent underline decoration-1 underline-offset-2 hover:text-primary transition-colors; }
   .prose-article :where(h2, h3, h4) { @apply scroll-mt-28 text-balance; }
   .prose-article :where(p, ul, ol, blockquote, table, figure) { @apply my-6; }

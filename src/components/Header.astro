@@ -34,7 +34,7 @@ const navItems = [
       <ThemeToggle />
     </div>
   </div>
-  <div class="border-t border-white/10 bg-primary/95 xl:hidden">
+  <div class="overflow-x-hidden border-t border-white/10 bg-primary/95 xl:hidden">
     <nav aria-label="Mobile primary navigation" class="clinical-container flex gap-2 overflow-x-auto py-2 text-[11px] font-bold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
       {navItems.map((item) => <a href={item.href} class="shrink-0 rounded-full border border-white/15 bg-white/8 px-4 py-2 text-primary-foreground/82">{item.label}</a>)}
     </nav>
