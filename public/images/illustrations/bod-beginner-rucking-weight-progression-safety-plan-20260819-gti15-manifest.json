@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "site": "bodywiselab",
+  "slug": "beginner-rucking-weight-progression-safety-plan",
+  "generated_at": "2026-08-19",
+  "backend": "GTI15 ComfyUI",
+  "visual_qa": "PASS",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "prompt_id": "38e85abd-b1fc-4db5-99dc-57ae1184abc8",
+      "remote": {
+        "filename": "gti15_natural_krea_00458_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\bodywiselab-1\\20260819_021553_krea_1369080707.png",
+      "bytes": 1890761,
+      "seconds": 68,
+      "engine": "krea",
+      "seed": 1369080707,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/bodywiselab-1/manifest.json",
+      "published_file": "bod-beginner-rucking-weight-progression-safety-plan-20260819-1.png",
+      "sha256": "25dd2fe9162e4a09e63e3d46f9a0fa166038c60f368c0fdb16affe2609c4199b",
+      "published_bytes": 1890761
+    },
+    {
+      "prompt_id": "1afaba04-1959-4867-884d-2ae3c98df1e4",
+      "remote": {
+        "filename": "gti15_natural_realvis_00289_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\bodywiselab-1\\20260819_021703_realvis_1369080708.png",
+      "bytes": 1926437,
+      "seconds": 30,
+      "engine": "realvis",
+      "seed": 1369080708,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/bodywiselab-1/manifest.json",
+      "published_file": "bod-beginner-rucking-weight-progression-safety-plan-20260819-2.png",
+      "sha256": "bcd053bcb87529f38600bf5042de5b552551b0d60febea111da69fd976050baf",
+      "published_bytes": 1926437
+    },
+    {
+      "prompt_id": "72dd2d61-a9c7-4337-9204-3926c868dc7e",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00288_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\bodywiselab-1\\20260819_021733_juggernaut_1369080709.png",
+      "bytes": 2015920,
+      "seconds": 27,
+      "engine": "juggernaut",
+      "seed": 1369080709,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/bodywiselab-1/manifest.json",
+      "published_file": "bod-beginner-rucking-weight-progression-safety-plan-20260819-3.png",
+      "sha256": "2ac6cbc38d0b4f96455062253007b81669cbc1ca3955ab3517b1b886121b9e27",
+      "published_bytes": 2015920
+    },
+    {
+      "prompt_id": "0e0dfa8a-61c7-48f2-841e-c53d18cb2eca",
+      "remote": {
+        "filename": "gti15_natural_realvis_00291_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\bodywiselab-2\\20260819_021912_realvis_2971197006.png",
+      "bytes": 1881772,
+      "seconds": 44,
+      "engine": "realvis",
+      "seed": 2971197006,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/bodywiselab-2/manifest.json",
+      "published_file": "bod-beginner-rucking-weight-progression-safety-plan-20260819-4.png",
+      "sha256": "5623ba761a1abd4945603bfed03a40125d396ff8df27b5b69c630efb24e51301",
+      "published_bytes": 1881772
+    },
+    {
+      "prompt_id": "7263f411-4e5b-4737-9f21-73428cf0efa8",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00290_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\bodywiselab-2\\20260819_021957_juggernaut_2971197007.png",
+      "bytes": 1587783,
+      "seconds": 29,
+      "engine": "juggernaut",
+      "seed": 2971197007,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/bodywiselab-2/manifest.json",
+      "published_file": "bod-beginner-rucking-weight-progression-safety-plan-20260819-5.png",
+      "sha256": "553a38d95e656eb124cc76f05c452b0ab3bfd086947820d83d12887407826a5d",
+      "published_bytes": 1587783
+    }
+  ],
+  "rejected_candidates_not_published": true
+}

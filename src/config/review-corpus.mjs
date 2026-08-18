@@ -23,7 +23,8 @@ export const REVIEW_POSTS = [
   "weight-bench-tested",
   "wildfire-smoke-outdoor-exercise-aqi-plan",
   "zone-2-cardio-talk-test-plan",
-  "post-meal-walking-blood-sugar-timing-plan"
+  "post-meal-walking-blood-sugar-timing-plan",
+  "beginner-rucking-weight-progression-safety-plan"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
