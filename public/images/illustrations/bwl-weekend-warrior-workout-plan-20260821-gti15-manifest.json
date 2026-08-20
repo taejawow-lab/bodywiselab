@@ -1,0 +1,130 @@
+{
+  "batch": "A-20260821",
+  "site": "bodywiselab",
+  "slug": "weekend-warrior-workout-plan-150-minutes",
+  "generated_backend": "GTI15 ComfyUI",
+  "accepted_count": 5,
+  "visual_qa": "PASS final5: five accepted rasters; rejected numbered/text equipment and wheelchair/sign scenes were regenerated.",
+  "assets": [
+    {
+      "prompt_id": "67e4831e-5fe3-48dc-b216-2ab808a233c2",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen2_bodywiselab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1578367,
+      "seconds": 13,
+      "suffix": "hero",
+      "filename": "bodywiselab-20260821-hero.png",
+      "prompt": "minimal exercise recovery still life containing only a plain rolled black mat, one plain white towel and one clear unmarked water bottle on an empty floor, no shoes, no bands, no books, no equipment labels, no text, no people",
+      "seed": 202608212001,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": "second",
+      "published_file": "public/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-hero.png",
+      "published_url": "/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-hero.png"
+    },
+    {
+      "prompt_id": "cbd2113a-4336-4ea1-b651-dfe3ce9fd264",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_bodywiselab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1414061,
+      "seconds": 12,
+      "suffix": "01",
+      "filename": "bodywiselab-20260821-01.png",
+      "prompt": "two simple workout stations in one tidy room, stationary bicycle and dumbbells separated with generous open space, realistic home gym, no people, no signs",
+      "seed": 202608210102,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "published_file": "public/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-01.png",
+      "published_url": "/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-01.png"
+    },
+    {
+      "prompt_id": "bfab3bba-2eda-4c87-8d53-1f3376f3da6e",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_bodywiselab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1600517,
+      "seconds": 12,
+      "suffix": "02",
+      "filename": "bodywiselab-20260821-02.png",
+      "prompt": "recovery day still life with foam roller, folded towel, plain water bottle and closed blank journal, soft daylight, no people, no medical devices",
+      "seed": 202608210103,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "published_file": "public/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-02.png",
+      "published_url": "/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-02.png"
+    },
+    {
+      "prompt_id": "c066c3a8-adea-4eca-a627-5e7e056cba7f",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen5_body_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 2752496,
+      "seconds": 15,
+      "suffix": "03",
+      "filename": "bodywiselab-20260821-03.png",
+      "prompt": "empty natural dirt walking trail through a quiet forest, frame contains only trail, trees, ferns and sunlight, no people, no signs, no lamps, no benches, no buildings, no exercise equipment, no text, realistic editorial photograph",
+      "seed": 202608215001,
+      "engine": "realvis",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": "fifth",
+      "published_file": "public/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-03.png",
+      "published_url": "/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-03.png"
+    },
+    {
+      "prompt_id": "22ade9fc-0844-4c80-8061-9f83c9576a98",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen_bodywiselab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1635484,
+      "seconds": 12,
+      "suffix": "04",
+      "filename": "bodywiselab-20260821-04.png",
+      "prompt": "walking and mobility still life by a sunlit entryway, pair of clean walking shoes, rolled mat and plain foam roller, no wheelchair, no mobility aid, no notebook, no people, no text or numbers",
+      "seed": 202608211003,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": true,
+      "published_file": "public/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-04.png",
+      "published_url": "/images/illustrations/bwl-weekend-warrior-workout-plan-20260821-04.png"
+    }
+  ],
+  "rejected_assets_published": 0,
+  "final_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260821-gti15/bodywiselab/contact_sheet-final5.jpg"
+}
