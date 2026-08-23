@@ -25,7 +25,8 @@ export const REVIEW_POSTS = [
   "zone-2-cardio-talk-test-plan",
   "post-meal-walking-blood-sugar-timing-plan",
   "beginner-rucking-weight-progression-safety-plan",
-  "weekend-warrior-workout-plan-150-minutes"
+  "weekend-warrior-workout-plan-150-minutes",
+  "minimum-effective-dose-strength-training-plan"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
