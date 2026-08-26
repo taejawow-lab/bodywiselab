@@ -26,7 +26,8 @@ export const REVIEW_POSTS = [
   "post-meal-walking-blood-sugar-timing-plan",
   "beginner-rucking-weight-progression-safety-plan",
   "weekend-warrior-workout-plan-150-minutes",
-  "minimum-effective-dose-strength-training-plan"
+  "minimum-effective-dose-strength-training-plan",
+  "exercise-snacks-three-five-minute-movement-breaks-plan"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

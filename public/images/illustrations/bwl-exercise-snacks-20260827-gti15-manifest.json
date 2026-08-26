@@ -1,0 +1,57 @@
+{
+  "site": "bodywiselab",
+  "slug": "exercise-snacks-three-five-minute-movement-breaks-plan",
+  "date": "2026-08-27",
+  "backend": "GTI15 ComfyUI",
+  "workflow": "generate_image",
+  "visual_qa": "PASS",
+  "assets": [
+    {
+      "filename": "bwl-exercise-snacks-20260827-1.png",
+      "source_filename": "ComfyUI_00228_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1675440
+    },
+    {
+      "filename": "bwl-exercise-snacks-20260827-2.png",
+      "source_filename": "ComfyUI_00244_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1421271
+    },
+    {
+      "filename": "bwl-exercise-snacks-20260827-3.png",
+      "source_filename": "ComfyUI_00245_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1806806
+    },
+    {
+      "filename": "bwl-exercise-snacks-20260827-4.png",
+      "source_filename": "ComfyUI_00246_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1348678
+    },
+    {
+      "filename": "bwl-exercise-snacks-20260827-5.png",
+      "source_filename": "ComfyUI_00247_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2583309
+    }
+  ],
+  "rejected_sources": "not included in final manifest",
+  "contact_sheet": "bwl-exercise-snacks-20260827-final-contact-sheet.jpg"
+}
