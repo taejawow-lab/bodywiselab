@@ -1,0 +1,60 @@
+{
+  "site": "bodywiselab",
+  "date": "2026-08-30",
+  "backend": "GTI15 ComfyUI",
+  "model_priority": "FLUX.1 Krea dev",
+  "accepted": [
+    {
+      "file": "bwl-waist-metrics-20260830-1.png",
+      "engine": "krea",
+      "seed": 1419013141,
+      "prompt_id": "171ba77a-6552-497b-9d92-fc895cb3fa79",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830_regen2\\bodywiselab\\hero\\20260830_034621_krea_1419013141.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "bwl-waist-metrics-20260830-2.png",
+      "engine": "krea",
+      "seed": 2195226882,
+      "prompt_id": "394d604e-7da7-4307-b8ed-d32eb4ea04e8",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830_regen2\\bodywiselab\\bmi\\20260830_034648_krea_2195226882.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "bwl-waist-metrics-20260830-3.png",
+      "engine": "krea",
+      "seed": 3059953553,
+      "prompt_id": "658daf55-1c2a-491d-9831-7de9d712ad21",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830_regen2\\bodywiselab\\smart-scale\\20260830_034701_krea_3059953553.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "bwl-waist-metrics-20260830-4.png",
+      "engine": "krea",
+      "seed": 1088100246,
+      "prompt_id": "ac5ef1be-1444-4b34-9008-b2b22ac7a1a5",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830\\bodywiselab\\5-tracking\\20260830_033616_krea_1088100246.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "bwl-waist-metrics-20260830-5.png",
+      "engine": "krea",
+      "seed": 2328552680,
+      "prompt_id": "7e6bdc59-de87-480d-a781-21432c02f7ee",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830_regen3\\bodywiselab\\trend\\20260830_034818_krea_2328552680.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    }
+  ],
+  "rejected_candidates_excluded": true,
+  "final_visual_qa": "PASS"
+}
