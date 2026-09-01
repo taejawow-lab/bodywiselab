@@ -28,7 +28,8 @@ export const REVIEW_POSTS = [
   "weekend-warrior-workout-plan-150-minutes",
   "minimum-effective-dose-strength-training-plan",
   "exercise-snacks-three-five-minute-movement-breaks-plan",
-  "waist-to-height-ratio-vs-bmi-smart-scale-body-fat"
+  "waist-to-height-ratio-vs-bmi-smart-scale-body-fat",
+  "30-second-chair-stand-test-strength-plan"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

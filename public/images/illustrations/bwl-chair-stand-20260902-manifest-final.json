@@ -1,0 +1,80 @@
+{
+  "article": "30-second-chair-stand-test-strength-plan",
+  "generated_at": "2026-09-02",
+  "backend": "GTI15 ComfyUI",
+  "accepted": [
+    {
+      "filename": "bwl-chair-stand-20260902-1.png",
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt_id": "40ae230e-8a14-4cb5-b452-23f5df10733f",
+      "seed": 1494641956,
+      "dimensions": "1536x864",
+      "prompt": "Editorial health photograph, a sturdy armless dining chair on a nonslip wood floor beside a clear wall, pair of plain training shoes nearby, safe uncluttered home exercise setup for a thirty second chair stand test, realistic natural morning light, no people, no text, no letters, no numbers, no logos, no screens, no labels",
+      "qa": "accepted after visual inspection",
+      "role": "hero safe chair setup"
+    },
+    {
+      "filename": "bwl-chair-stand-20260902-2.png",
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt_id": "3f77d913-d48e-428f-b716-e302fd56f6fe",
+      "seed": 253506399,
+      "dimensions": "1536x864",
+      "prompt": "Editorial health photograph, side view of a sturdy four-legged armless dining chair against a clear wall on nonslip floor, two plain athletic shoes placed flat and parallel in front of the chair to demonstrate foot position, no person, realistic natural light, no text, no letters, no numbers, no logos, no screens, no labels, no office chair",
+      "qa": "accepted after visual inspection",
+      "role": "side setup and foot placement"
+    },
+    {
+      "filename": "bwl-chair-stand-20260902-3.png",
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt_id": "dc0c00c5-4c97-47a4-9029-c5faf99de573",
+      "seed": 1034904594,
+      "dimensions": "1536x864",
+      "prompt": "Editorial fitness still life, sturdy four-legged armless dining chair and one plain low exercise step platform on clean nonslip floor, simple lower body strength progression concept, realistic natural light, no people, no weights, no bands, no text, no letters, no numbers, no logos, no screens, no labels, no office chair",
+      "qa": "accepted after visual inspection",
+      "role": "chair and low step progression"
+    },
+    {
+      "filename": "bwl-chair-stand-20260902-4.png",
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt_id": "76a052e4-acea-48a8-b8a1-34d5af5b0658",
+      "seed": 1207052462,
+      "dimensions": "1536x864",
+      "prompt": "Professional editorial photograph of one conventional wooden dining chair, straight backrest, exactly four normal legs, absolutely no armrests, positioned with its back touching a plain wall on dry nonslip flooring, wide empty uncluttered space in front, realistic daylight, no people, no shoes, no equipment, no text, no letters, no numbers, no logos, no screens, no labels",
+      "qa": "accepted after visual inspection",
+      "role": "clear fall-prevention setup"
+    },
+    {
+      "filename": "bwl-chair-stand-20260902-5.png",
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt_id": "6acfe023-df21-4e9e-88cc-95a156a35964",
+      "seed": 1862939904,
+      "dimensions": "1536x864",
+      "prompt": "Editorial health still life, sturdy four-legged armless dining chair, plain exercise mat, blank clipboard with completely blank white paper, simple pencil and walking shoes, functional strength tracking concept, realistic natural light, no people, no text, no letters, no numbers, no logos, no screens, no labels, no office chair, no wheels",
+      "qa": "accepted after visual inspection",
+      "role": "blank tracking clipboard and shoes"
+    }
+  ],
+  "rejected": [
+    {
+      "slot": 2,
+      "reason": "unsafe/unclear human movement"
+    },
+    {
+      "slot": 3,
+      "reason": "distorted resistance band and toy-like weights"
+    },
+    {
+      "slot": 4,
+      "reason": "impossible low handrail geometry"
+    },
+    {
+      "slot": 5,
+      "reason": "wheeled office chair instead of stable chair"
+    }
+  ]
+}
